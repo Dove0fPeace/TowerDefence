@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TowerDefence;
 
 namespace SpaceShooter
 {
@@ -13,7 +14,7 @@ namespace SpaceShooter
             Loop
         }
 
-        [SerializeField] private Waypoint m_PatrolPoint;
+        [SerializeField] private Path m_Path;
 
         [SerializeField] private Entity[] m_EntityPrefabs;
 
@@ -59,9 +60,9 @@ namespace SpaceShooter
                 GameObject e = Instantiate(m_EntityPrefabs[index].gameObject);
 
                 e.transform.position = m_CircleArea.GetRandomInsideZone();
-                if (e.TryGetComponent<AIController>(out var ai))
+                if (e.TryGetComponent<TD_PatrolController>(out var ai))
                 {
-                    ai.SetWaypoint(m_PatrolPoint);
+                    ai.SetPath(m_Path);
                 }
             }
         }

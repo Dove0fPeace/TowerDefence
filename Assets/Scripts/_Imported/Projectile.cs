@@ -51,11 +51,12 @@ namespace SpaceShooter
             if (dest != null)
             {
                 dest.ApplyDamage(m_Damage, IsPlayerProjectile);
-                
+                /*
                 if (IsPlayerProjectile && dest.TeamID != Destructible.TeamIDNeutral)
                 {
                     Player.Instance.AddScore(dest.ScoreValue);
                 }
+                */
             }
             OnProjectileLifeEnd();
         }

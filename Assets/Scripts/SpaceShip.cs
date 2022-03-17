@@ -242,8 +242,8 @@ namespace SpaceShooter
         */
         protected override void OnDeath(bool playersProjectile)
         {
-            if (playersProjectile == true && m_IsPlayerShip == false)
-                Player.Instance.AddKill();
+            //if (playersProjectile == true && m_IsPlayerShip == false)
+            //    Player.Instance.AddKill();
             base.OnDeath(playersProjectile);
         }
     }

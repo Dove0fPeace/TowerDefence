@@ -1,19 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TowerDefence;
 
 namespace SpaceShooter
 {
     public class Waypoint : MonoBehaviour
     {
-        [SerializeField] private Waypoint m_NextPoint;
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            AIController AI = other.transform.root.GetComponent<AIController>();
+            TD_PatrolController AI = other.transform.root.GetComponent<TD_PatrolController>();
             if(AI != null)
             {
-                AI.SetWaypoint(m_NextPoint);
+                AI.GetNewPoint();
             }
         }
     }
