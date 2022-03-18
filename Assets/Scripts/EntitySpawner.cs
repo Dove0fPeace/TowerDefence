@@ -68,7 +68,7 @@ namespace SpaceShooter
                 }
                 if(e.TryGetComponent<Enemy>(out var enemy))
                 {
-                    enemy.Use(m_EnemySettings[Random.Range(0,1)]);
+                    enemy.Use(m_EnemySettings[Random.Range(0, 2)]);
                 }
             }
         }

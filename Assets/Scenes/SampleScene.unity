@@ -424,7 +424,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &202438823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -487,6 +487,9 @@ MonoBehaviour:
   m_Path: {fileID: 1888340874}
   m_EntityPrefabs:
   - {fileID: 839430874, guid: 9e4f9b1c6e4ca4349b11f330fb10c4d6, type: 3}
+  m_EnemySettings:
+  - {fileID: 11400000, guid: 41fb6ae102aa2014e8dc796d88f6d2d7, type: 2}
+  - {fileID: 11400000, guid: 89c13ff570b77aa49b0ac1199b1f5bf6, type: 2}
   m_CircleArea: {fileID: 1604032265}
   m_SpawnMode: 1
   m_NumSpawns: 2
@@ -524,6 +527,7 @@ MonoBehaviour:
   m_Path: {fileID: 1144116682}
   m_EntityPrefabs:
   - {fileID: 839430874, guid: 9e4f9b1c6e4ca4349b11f330fb10c4d6, type: 3}
+  m_EnemySettings: []
   m_CircleArea: {fileID: 1604032265}
   m_SpawnMode: 1
   m_NumSpawns: 2
