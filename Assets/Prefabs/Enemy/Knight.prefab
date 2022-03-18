@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 839430875}
   - component: {fileID: 839430874}
   - component: {fileID: 5672488637838063114}
+  - component: {fileID: 3657035232793455635}
   m_Layer: 3
   m_Name: Knight
   m_TagString: Untagged
@@ -31,7 +32,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 944107095824331035}
-  - {fileID: 8018694683468909655}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -118,6 +118,18 @@ MonoBehaviour:
   m_ShootDelay: 0
   m_EvadeRayLenght: 0
   m_EvadeDelay: 0
+--- !u!114 &3657035232793455635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944107094656144409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e6d8ceb2438144a9c7d1b47101833a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &944107095824331034
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,6 +141,8 @@ GameObject:
   - component: {fileID: 944107095824331035}
   - component: {fileID: 944107095824331037}
   - component: {fileID: 944107095824331036}
+  - component: {fileID: 1907071052767163638}
+  - component: {fileID: 3481724636315210375}
   m_Layer: 3
   m_Name: Sprite
   m_TagString: Untagged
@@ -220,50 +234,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &2562049546168174967
-GameObject:
+--- !u!114 &1907071052767163638
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8018694683468909655}
-  - component: {fileID: 3342905381279127907}
-  m_Layer: 3
-  m_Name: Collider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8018694683468909655
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2562049546168174967}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 944107094656144410}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &3342905381279127907
+  m_GameObject: {fileID: 944107095824331034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5c300a68aac1d741b95af2ef15f462a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!70 &3481724636315210375
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2562049546168174967}
+  m_GameObject: {fileID: 944107095824331034}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0022726282, y: -0.045452476}
-  m_Size: {x: 0.22274007, y: 0.3091228}
+  m_Offset: {x: -0.00007355586, y: -0.027856119}
+  m_Size: {x: 0.1077772, y: 0.15896721}
   m_Direction: 0

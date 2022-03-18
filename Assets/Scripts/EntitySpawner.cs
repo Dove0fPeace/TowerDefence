@@ -18,6 +18,8 @@ namespace SpaceShooter
 
         [SerializeField] private Entity[] m_EntityPrefabs;
 
+        [SerializeField] private EnemyAsset[] m_EnemySettings;
+
         [SerializeField] private CircleArea m_CircleArea;
 
         [SerializeField] private SpawnMode m_SpawnMode;
@@ -63,6 +65,10 @@ namespace SpaceShooter
                 if (e.TryGetComponent<TD_PatrolController>(out var ai))
                 {
                     ai.SetPath(m_Path);
+                }
+                if(e.TryGetComponent<Enemy>(out var enemy))
+                {
+                    enemy.Use(m_EnemySettings[Random.Range(0,1)]);
                 }
             }
         }
