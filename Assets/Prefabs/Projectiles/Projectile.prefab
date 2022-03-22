@@ -68,9 +68,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Nickname: 
-  m_Velocity: 4
+  m_Velocity: 6
   m_Lifetime: 5
-  m_Damage: 10
+  m_Damage: 8
   m_ImpactEffectPrefab: {fileID: 0}
   IsPlayerProjectile: 0
 --- !u!1 &2543431707001435906
@@ -117,8 +117,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.019543305, y: -0.18240413}
-  m_Size: {x: 0.19165012, y: 0.63519174}
+  m_Offset: {x: 0.008802817, y: -0.09379509}
+  m_Size: {x: 0.07350473, y: 0.28612584}
   m_Direction: 0
 --- !u!1 &2543431707082797111
 GameObject:
@@ -146,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 2543431707082797111}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2543431705469137010}
   m_RootOrder: 0
