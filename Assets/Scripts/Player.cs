@@ -8,9 +8,8 @@ namespace SpaceShooter
     public class Player : SingletonBase<Player>
     {
         [SerializeField] private int m_NumLives;
-        [SerializeField] private int m_Coins;
-        public int CurrentCoins => m_Coins;
-        [Space(10)]
+        public int NumLives => m_NumLives;
+        [Space(3)]
         [SerializeField] private SpaceShip m_Ship;
         [SerializeField] private GameObject m_PlayerShipPrefab;
         public SpaceShip ActiveShip => m_Ship;
@@ -20,8 +19,6 @@ namespace SpaceShooter
         //[SerializeField] private MovementController m_MovementController;
         [Header("Recources view")]
         //[SerializeField] private HitPointView m_HitPointView;
-
-        [Space(10)]
         [SerializeField] private bool m_Racing;
         //[SerializeField] private Boss m_boss;
 
@@ -37,7 +34,7 @@ namespace SpaceShooter
         }
         private void Start()
         {
-            Respawn();
+                Respawn();
         }
 
         private void Update()
@@ -72,9 +69,13 @@ namespace SpaceShooter
             }
         }
 
-        public void AddCoin(int coin)
+        public void TakeDamage(int damage)
         {
-            m_Coins += coin;
+            m_NumLives -= damage;
+            if(m_NumLives <= 0)
+            {
+                LevelSequenceController.Instance.FinishCurrentLevel(false);
+            }
         }
 
         #region Score
