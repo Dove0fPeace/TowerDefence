@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace SpaceShooter
+namespace _Imported
 {
     [RequireComponent(typeof(SpaceShip))]
     public class AIController : MonoBehaviour

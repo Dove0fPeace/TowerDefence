@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SpaceShooter
+namespace _Imported
 {
 
     /// <summary>

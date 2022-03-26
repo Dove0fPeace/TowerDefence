@@ -1,23 +1,20 @@
+using _Imported;
 using UnityEngine;
-using SpaceShooter;
 
-namespace TowerDefence
+public class Path : MonoBehaviour
 {
-    public class Path : MonoBehaviour
+    [SerializeField] private Waypoint[] m_Waypoints;
+
+    public int Lenght { get => m_Waypoints.Length; }
+    public Waypoint this[int i] { get => m_Waypoints[i]; }
+
+    private void OnDrawGizmosSelected()
     {
-        [SerializeField] private Waypoint[] m_Waypoints;
+        Gizmos.color = Color.green;
 
-        public int Lenght { get => m_Waypoints.Length; }
-        public Waypoint this[int i] { get => m_Waypoints[i]; }
-
-        private void OnDrawGizmosSelected()
+        foreach (var point in m_Waypoints)
         {
-            Gizmos.color = Color.green;
-
-            foreach (var point in m_Waypoints)
-            {
-                Gizmos.DrawSphere(point.transform.position, 0.3f);
-            }
+            Gizmos.DrawSphere(point.transform.position, 0.3f);
         }
     }
 }

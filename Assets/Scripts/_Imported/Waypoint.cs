@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TowerDefence;
 
-namespace SpaceShooter
+namespace _Imported
 {
     public class Waypoint : MonoBehaviour
     {

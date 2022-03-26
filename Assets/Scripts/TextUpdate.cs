@@ -1,35 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
-namespace TowerDefence
+public class TextUpdate : MonoBehaviour
 {
-    public class TextUpdate : MonoBehaviour
+    public enum UpdateSource { Gold, Health}
+    public UpdateSource Source = UpdateSource.Gold;
+
+    private TMP_Text _moneyText;
+    private void Start()
     {
-        public enum UpdateSource { Gold, Health}
-        public UpdateSource Source = UpdateSource.Gold;
+        _moneyText = GetComponent<TMP_Text>();
 
-        private TMP_Text m_MoneyText;
-        private void Awake()
+        switch(Source)
         {
-            m_MoneyText = GetComponent<TMP_Text>();
+            case UpdateSource.Gold:
+                TD_Player.GoldUpdateSubscribe(UpdateText);
+                break;
 
-            switch(Source)
-            {
-                case UpdateSource.Gold:
-                    TD_Player.OnGoldUpdate += UpdateText;
-                    break;
-
-                case UpdateSource.Health:
-                    TD_Player.OnLifeUpdate += UpdateText;
-                    break;
-            }
+            case UpdateSource.Health:
+                TD_Player.HealthUpdateSubscribe(UpdateText);
+                break;
         }
+    }
 
-        private void UpdateText(int value)
-        {
-            m_MoneyText.text = value.ToString();
-        }
+    private void UpdateText(int value)
+    {
+        _moneyText.text = value.ToString();
     }
 }

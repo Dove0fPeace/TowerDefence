@@ -1,53 +1,58 @@
+using _Imported;
 using UnityEngine;
-using SpaceShooter;
 
-namespace TowerDefence
+public class Tower : MonoBehaviour
 {
-    public class Tower : MonoBehaviour
+    [SerializeField] private float m_Radius;
+
+    private Turret[] m_Turrets;
+    private Destructible m_Target = null;
+
+    private void Awake()
     {
-        [SerializeField] private float m_Radius;
+        m_Turrets = GetComponentsInChildren<Turret>();
+    }
 
-        private Turret[] m_Turrets;
-        private Destructible m_Target = null;
-
-        private void Start()
+    private void Update()
+    {
+        if (m_Target)
         {
-            m_Turrets = GetComponentsInChildren<Turret>();
-        }
+            Vector2 targetVector = m_Target.PositionPrediction() - transform.position;
 
-        private void Update()
-        {
-            if (m_Target)
+            if (targetVector.magnitude <= m_Radius)
             {
-                Vector2 targetVector = m_Target.PositionPrediction() - transform.position;
-
-                if (targetVector.magnitude <= m_Radius)
+                foreach (var turret in m_Turrets)
                 {
-                    foreach (var turret in m_Turrets)
-                    {
-                        turret.transform.up = targetVector;
-                        turret.Fire(true);
-                    }
-                }
-                else
-                {
-                    m_Target = null;
+                    turret.transform.up = targetVector;
+                    turret.Fire(true);
                 }
             }
             else
             {
-                var enter = Physics2D.OverlapCircle(transform.position, m_Radius);
-                if (enter)
-                {
-                    m_Target = enter.transform.root.GetComponent<Destructible>();
-                }
+                m_Target = null;
             }
         }
-        private void OnDrawGizmosSelected()
+        else
         {
-            Gizmos.color = Color.cyan;
+            var enter = Physics2D.OverlapCircle(transform.position, m_Radius);
+            if (enter)
+            {
+                m_Target = enter.transform.root.GetComponent<Destructible>();
+            }
+        }
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.cyan;
 
-            Gizmos.DrawWireSphere(transform.position, m_Radius);
+        Gizmos.DrawWireSphere(transform.position, m_Radius);
+    }
+
+    public void SetTurret(TurretProperties props)
+    {
+        foreach (var turret in m_Turrets)
+        {
+            turret.AssignLoadout(props);
         }
     }
 }
