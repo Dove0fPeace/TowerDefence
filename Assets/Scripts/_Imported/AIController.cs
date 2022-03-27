@@ -24,7 +24,9 @@ namespace _Imported
 
         [SerializeField] private Waypoint m_Waypoint;
         [Range(0.0f,  1.0f)]
-        [SerializeField] private float m_NavigationLinear;
+        [SerializeField] protected float m_NavigationLinear;
+
+        protected float _basicSpeed;
 
         [Range(0.0f,  1.0f)]
         [SerializeField] private float m_NavigationAngular;
@@ -71,6 +73,7 @@ namespace _Imported
                 m_RaceTargetPoint = m_FirstRaceTarget.GetRandonTargetPoint();
             }
             */
+            _basicSpeed = m_NavigationLinear;
         }
 
         private void FixedUpdate()

@@ -20,105 +20,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186cce6c-f2c7-46df-9d34-12b04af63ec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/BuildSite.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/BuildSite.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/Archer_Tower.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/Archer_Tower.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/Mage_Tower.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/Mage_Tower.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/BaseTower_LVL_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/BaseTower_LVL_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tower.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Tower.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BuildSite.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BuildSite.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NullBuildSite.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NullBuildSite.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TowerAsset.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TowerAsset.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/BaseTower_LVL_1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/BaseTower_LVL_1.asset.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Cloud.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Cloud.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/CloudStart.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/CloudStart.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Dark_Magic_Sprite_10.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Dark_Magic_Sprite_10.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Projectile_Life_DarkMagic.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Projectile_Life_DarkMagic.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Projectile_Start_DarkMagic.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Projectile_Start_DarkMagic.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Sprite.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Sprite.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Witch.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Witch.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/cloud (1).controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/cloud (1).controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/CloudTower_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/CloudTower_back.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Enemy/Witch Sprite Sheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Enemy/Witch Sprite Sheet.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Magic.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Magic/Dark_Magic_Sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Magic/Dark_Magic_Sprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tower/CloudTower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tower/CloudTower.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/TowerGround.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/TowerGround.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Witch.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Witch.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Arrow_LVL1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Arrow_LVL1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Magic_LVL_1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Magic_LVL_1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/clouds.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/clouds.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/AcidCloud_Tower.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/AcidCloud_Tower.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/AcidCloud_Tower.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/AcidCloud_Tower.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/MageTower_LVL_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/MageTower_LVL_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AcidCloud.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AcidCloud.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/MemorySettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/boot.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/18.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/18.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/19.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/19.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/20.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/20.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Bigtreesharpen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Bigtreesharpen.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/Druid_Sprite.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Enemy/Druid_Sprite.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Knight/1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Knight/1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Knight/2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Knight/2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Knight/3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Knight/3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Knight/4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Knight/4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Tower/AT0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Tower/AT0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/c_point.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/c_point.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/c_point3_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/c_point3_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/cloud.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/cloud.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/shadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/shadow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BigKnight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BigKnight.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Druid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Druid.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Knight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Knight.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Projectile.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Projectile.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/BuildSite.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/BuildSite.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/Archer_Tower.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/Archer_Tower.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/Mage_Tower.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/Mage_Tower.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/BaseTower_LVL_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/BaseTower_LVL_1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tower.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAsset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyAsset.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EntitySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EntitySpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Path.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Path.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpaceShip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpaceShip.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/StandUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StandUp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextUpdate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextUpdate.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TowerAsset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TowerAsset.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Turret.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Turret.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TurretProperties.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TurretProperties.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/AIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/AIPointPatrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/AIPointPatrol.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/CircleArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/CircleArea.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/Destructible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/Destructible.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/Episode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/Episode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/ImpactEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/ImpactEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelSequenceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelSequenceController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/PlayerStatistics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/PlayerStatistics.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/ResultPanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/ResultPanelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/SingletonBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/SingletonBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/Timer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/TrailController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/TrailController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/Waypoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/Waypoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,19 +124,28 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildSite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NullBuildSite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AcidCloud.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextUpdate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TowerAsset.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NullBuildSite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BuildSite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EntitySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpaceShip.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/AIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StandUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TowerAsset.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Turret.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AcidCloud.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/Projectile.cs" />
       </list>
     </option>
   </component>
@@ -195,6 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648280855229</updated>
       <workItem from="1648280868648" duration="16278000" />
+      <workItem from="1648361777630" duration="22060000" />
     </task>
     <servers />
   </component>
@@ -213,6 +213,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

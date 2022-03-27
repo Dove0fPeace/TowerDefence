@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 529627352cf24950939f598a6db2338d, type: 3}
   m_Name: Archer_Tower
   m_EditorClassIdentifier: 
+  Type: 1
   GoldCost: 30
   GUISprite: {fileID: 21300000, guid: ef25b92a8e4b2644b8420de820e6c11f, type: 3}
   TowerSprite: {fileID: 21300000, guid: 0d1dc428e29b59d4da665429794be749, type: 3}

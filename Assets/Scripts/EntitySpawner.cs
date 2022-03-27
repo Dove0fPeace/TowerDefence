@@ -24,6 +24,7 @@ public class EntitySpawner : MonoBehaviour
     [SerializeField] private int m_NumSpawns;
 
     [SerializeField] private float m_RespawnTime;
+    [SerializeField] private float m_StartDelay = 8;
 
     private float m_Timer;
 
@@ -34,7 +35,7 @@ public class EntitySpawner : MonoBehaviour
             SpawnEntities();
         }
 
-        m_Timer = m_RespawnTime;
+        m_Timer = m_StartDelay;
     }
 
     private void Update()

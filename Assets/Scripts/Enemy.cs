@@ -2,6 +2,11 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] private TargetLayer m_Type;
+
+    [SerializeField] private Transform m_Target;
+    public TargetLayer Type => m_Type;
+    
     [SerializeField] private int m_Damage = 1;
     [SerializeField] private int m_GoldCost = 5;
     public void Use(EnemyAsset asset)
@@ -18,5 +23,10 @@ public class Enemy : MonoBehaviour
     public void GivePlayerGold()
     {
         TD_Player.Instance.ChangeGold(m_GoldCost);
+    }
+
+    public Transform ReturnTarget()
+    {
+        return m_Target;
     }
 }

@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class StandUp : MonoBehaviour
 {
-    private Rigidbody2D m_RigidBody;
+    private TD_PatrolController _controller;
     private SpriteRenderer m_SpriteRenderer;
     private void Start()
     {
-        m_RigidBody = transform.root.GetComponent<Rigidbody2D>();
+        _controller = GetComponentInParent<TD_PatrolController>();
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
     }
     private void LateUpdate()
     {
         transform.up = Vector2.up;
-        var xMotion = m_RigidBody.velocity.x;
+        var xMotion = _controller.MovePosition.x;
         if (xMotion > 0.01f) m_SpriteRenderer.flipX = false;
         else if (xMotion < 0.01f) m_SpriteRenderer.flipX = true;
     }

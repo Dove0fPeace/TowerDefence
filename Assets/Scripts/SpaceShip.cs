@@ -124,6 +124,7 @@ public class SpaceShip : Destructible
         m_Indestructible = true;
         m_Bubble.SetActive(true);
     }
+
     public override void ApplyDamage(int damage, bool playersProjectile)
     {
         if (m_DamageSlowDownTheShip)

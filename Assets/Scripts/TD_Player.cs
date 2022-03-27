@@ -49,6 +49,7 @@ public class TD_Player : Player
         var tower = Instantiate(m_TowerPrefab, buildSite.position, Quaternion.identity);
         tower.GetComponentInChildren<SpriteRenderer>().sprite = towerAsset.TowerSprite;
         tower.SetTurret(towerAsset.TurretProperties);
+        tower.SetType(towerAsset.Type);
         Destroy(buildSite.gameObject);
     }
 }

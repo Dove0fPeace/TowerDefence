@@ -15,6 +15,7 @@ public class Turret : MonoBehaviour
     public bool CanFire => m_RefireTimer <= 0;
 
     private SpaceShip m_Ship;
+    public Enemy Target { get; set; }
 
     #region UnityEvents
     private void Start()
@@ -30,14 +31,14 @@ public class Turret : MonoBehaviour
         }
         else if (m_Mode == TurretMode.Auto)
         {
-            Fire(true);
+            Fire(Target);
         }
     }
     #endregion
 
     #region PublicAPI
 
-    public void Fire(bool IsPlayerShip)
+    public void Fire(Enemy Target)
     {
         if (m_TurretProperties == null) return;
         if (CanFire == false) return;
@@ -47,9 +48,17 @@ public class Turret : MonoBehaviour
         //    return;
 
         Projectile projectile = Instantiate(m_TurretProperties.ProgectilePrefab).GetComponent<Projectile>();
-        projectile.IsPlayerProjectile = IsPlayerShip;
         projectile.transform.position = transform.position;
-        projectile.transform.up = transform.up;
+        if (m_Mode == TurretMode.Auto)
+        {
+            projectile.Static = true;
+        }
+        else
+        {
+            projectile.transform.up = transform.up;
+            projectile.SetEnemy(Target);
+            
+        }
 
         m_RefireTimer = m_TurretProperties.RateOfFire;
 
@@ -59,7 +68,10 @@ public class Turret : MonoBehaviour
 
     public void AssignLoadout(TurretProperties props)
     {
-        if (m_Mode != props.Mode) return;
+        if (props is not null && m_Mode != props.Mode)
+        {
+            m_Mode = props.Mode;
+        }
 
         m_RefireTimer = 0;
         m_TurretProperties = props;

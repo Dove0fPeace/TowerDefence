@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 529627352cf24950939f598a6db2338d, type: 3}
   m_Name: Mage_Tower
   m_EditorClassIdentifier: 
+  Type: 2
   GoldCost: 50
   GUISprite: {fileID: 21300000, guid: 1ff55c4a74fcf9b429b49b787ead3395, type: 3}
   TowerSprite: {fileID: 21300000, guid: 298636722737c4b41816506cd4bc994f, type: 3}
-  TurretProperties: {fileID: 11400000, guid: 85ba5a5a68998e74a9105447a0e7cd57, type: 2}
+  TurretProperties: {fileID: 11400000, guid: bf997dbba7e8bbc4998e6c522e1af273, type: 2}

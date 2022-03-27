@@ -24,6 +24,7 @@
             <e p="TrailController.cs" t="Include" />
             <e p="Waypoint.cs" t="Include" />
           </e>
+          <e p="AcidCloud.cs" t="Include" />
           <e p="BuildSite.cs" t="Include" />
           <e p="BuyControl.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
@@ -115,15 +116,19 @@
           </e>
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
+            <e p="EmojiOne.json" t="Include" />
           </e>
         </e>
       </e>
       <e p="Cinemachine.csproj" t="IncludeRecursive" />
       <e p="Cinemachine.Player.csproj" t="IncludeRecursive" />
       <e p="com.unity.cinemachine.editor.csproj" t="IncludeRecursive" />
+      <e p="com.unity.cinemachine.EditorTests.Player.csproj" t="IncludeRecursive" />
+      <e p="com.unity.cinemachine.Tests.Player.csproj" t="IncludeRecursive" />
+      <e p="DocCodeExamples.Player.csproj" t="IncludeRecursive" />
       <e p="Library" t="Include">
         <e p="PackageCache" t="Include">
-          <e p="com.unity.2d.animation@5.1.0" t="Include">
+          <e p="com.unity.2d.animation@7.0.3" t="Include">
             <e p="Editor" t="Include">
               <e p="Analytics.cs" t="Include" />
               <e p="AssemblyInfo.cs" t="Include" />
@@ -140,22 +145,22 @@
                   <e p="BoneReparentWindow.uxml" t="Include" />
                   <e p="BoneToolbar.uxml" t="Include" />
                   <e p="BoneToolbarStyle.uss" t="Include" />
-                  <e p="CopyToolbar.uxml" t="Include" />
-                  <e p="CopyToolbarStyle.uss" t="Include" />
                   <e p="GenerateGeometryPanel.uxml" t="Include" />
                   <e p="GenerateGeometryPanelStyle.uss" t="Include" />
                   <e p="GenerateWeightsPanel.uxml" t="Include" />
                   <e p="GenerateWeightsPanelStyle.uss" t="Include" />
+                  <e p="InfluenceWindow.uxml" t="Include" />
+                  <e p="InfluenceWindowStyle.uss" t="Include" />
                   <e p="MeshToolbar.uxml" t="Include" />
                   <e p="MeshToolbarStyle.uss" t="Include" />
                   <e p="PastePanel.uxml" t="Include" />
                   <e p="PastePanelStyle.uss" t="Include" />
+                  <e p="PoseToolbar.uxml" t="Include" />
+                  <e p="PoseToolbarStyle.uss" t="Include" />
+                  <e p="RigToolbar.uxml" t="Include" />
+                  <e p="RigToolbarStyle.uss" t="Include" />
                   <e p="SkinningModule-GUITextureClip.shader" t="Include" />
                   <e p="SpriteBitmask.shader" t="Include" />
-                  <e p="SpriteBoneInfluenceListWidget.uxml" t="Include" />
-                  <e p="SpriteBoneInfluenceListWidgetStyle.uss" t="Include" />
-                  <e p="SpriteBoneInfluenceWindow.uxml" t="Include" />
-                  <e p="SpriteBoneInfluenceWindowStyle.uss" t="Include" />
                   <e p="SpriteEdgeOutline.shader" t="Include" />
                   <e p="SpriteOutline.shader" t="Include" />
                   <e p="ToolbarStyle.uss" t="Include" />
@@ -255,6 +260,7 @@
                   <e p="Unselector.cs" t="Include" />
                 </e>
                 <e p="SerializableDictionary.cs" t="Include" />
+                <e p="ShortcutUtility.cs" t="Include" />
                 <e p="SkeletonTool" t="Include">
                   <e p="SkeletonStyles.cs" t="Include" />
                   <e p="SkeletonTool.cs" t="Include" />
@@ -289,9 +295,9 @@
                   <e p="SkinningSerializerXML.cs" t="Include" />
                 </e>
                 <e p="SpriteBoneInfluence" t="Include">
-                  <e p="SpriteBoneInfluenceListWidget.cs" t="Include" />
+                  <e p="BoneSpriteInfluenceTool.cs" t="Include" />
+                  <e p="InfluenceWindow.cs" t="Include" />
                   <e p="SpriteBoneInfluenceTool.cs" t="Include" />
-                  <e p="SpriteBoneInfluenceWindow.cs" t="Include" />
                 </e>
                 <e p="SpriteMeshData" t="Include">
                   <e p="BoneWeightExtensions.cs" t="Include" />
@@ -313,11 +319,12 @@
                 <e p="UI" t="Include">
                   <e p="BoneInspectorPanel.cs" t="Include" />
                   <e p="BoneToolbar.cs" t="Include" />
-                  <e p="CopyToolbar.cs" t="Include" />
                   <e p="GenerateGeometryPanel.cs" t="Include" />
                   <e p="GenerateWeightsPanel.cs" t="Include" />
                   <e p="MeshToolbar.cs" t="Include" />
                   <e p="PastePanel.cs" t="Include" />
+                  <e p="PoseToolbar.cs" t="Include" />
+                  <e p="RigToolbar.cs" t="Include" />
                   <e p="Toolbar.cs" t="Include" />
                   <e p="VisualElementExtensions.cs" t="Include" />
                   <e p="WeightInspectorIMGUIPanel.cs" t="Include" />
@@ -354,9 +361,16 @@
                 </e>
               </e>
               <e p="SpriteLib" t="Include">
+                <e p="SpriteLibCombineCache.cs" t="Include" />
                 <e p="SpriteLibraryAssetInspector.cs" t="Include" />
                 <e p="SpriteLibraryDataProvider.cs" t="Include" />
                 <e p="SpriteLibraryInspector.cs" t="Include" />
+                <e p="SpriteLibraryPropertyString.cs" t="Include" />
+                <e p="SpriteLibrarySourceAsset" t="Include">
+                  <e p="SpriteLibraryDataInspector.cs" t="Include" />
+                  <e p="SpriteLibrarySourceAssetImporter.cs" t="Include" />
+                  <e p="SpriteLibrarySourceAssetImporterInspector.cs" t="Include" />
+                </e>
                 <e p="SpriteResolverInspector.cs" t="Include" />
                 <e p="SpriteSelectionWidget.cs" t="Include" />
               </e>
@@ -365,11 +379,11 @@
               </e>
               <e p="SpritePostProcess.cs" t="Include" />
               <e p="SpriteSkin" t="Include">
+                <e p="BoneEditor.cs" t="Include" />
                 <e p="BoneGizmo.cs" t="Include" />
                 <e p="BoneGizmoToggle.cs" t="Include" />
                 <e p="SpriteSkinCompositeDebugWindow.cs" t="Include" />
                 <e p="SpriteSkinEditor.cs" t="Include" />
-                <e p="SpriteSkinEntityEditor.cs" t="Include" />
                 <e p="TransformExtensions.cs" t="Include" />
               </e>
               <e p="Unity.2D.Animation.Editor.asmdef" t="Include" />
@@ -409,146 +423,34 @@
             </e>
             <e p="Runtime" t="Include">
               <e p="AssemblyInfo.cs" t="Include" />
+              <e p="Bone.cs" t="Include" />
               <e p="BufferManager.cs" t="Include" />
-              <e p="Components.cs" t="Include" />
-              <e p="DeformSpriteSystem.cs" t="Include" />
               <e p="NativeArrayHelper.cs" t="Include" />
               <e p="NativeCustomSlice.cs" t="Include" />
-              <e p="PrepareSkinningSystem.cs" t="Include" />
+              <e p="SkeletonAsset.cs" t="Include" />
               <e p="SpriteLib" t="Include">
                 <e p="SpriteLibrary.cs" t="Include" />
                 <e p="SpriteLibraryAsset.cs" t="Include" />
+                <e p="SpriteLibraryData.cs" t="Include" />
+                <e p="SpriteLibrarySourceAsset.cs" t="Include" />
                 <e p="SpriteResolver.cs" t="Include" />
               </e>
               <e p="SpriteSkin.cs" t="Include" />
               <e p="SpriteSkinBatch.cs" t="Include" />
               <e p="SpriteSkinComposite.cs" t="Include" />
-              <e p="SpriteSkinEntity.cs" t="Include" />
               <e p="SpriteSkinManager.cs" t="Include" />
               <e p="SpriteSkinUtility.cs" t="Include" />
               <e p="TransformAccessJob.cs" t="Include" />
-              <e p="Triangle" t="Include">
-                <e p="Behavior.cs" t="Include" />
-                <e p="Configuration.cs" t="Include" />
-                <e p="Enums.cs" t="Include" />
-                <e p="Geometry" t="Include">
-                  <e p="Contour.cs" t="Include" />
-                  <e p="Edge.cs" t="Include" />
-                  <e p="ExtensionMethods.cs" t="Include" />
-                  <e p="IEdge.cs" t="Include" />
-                  <e p="IPolygon.cs" t="Include" />
-                  <e p="ISegment.cs" t="Include" />
-                  <e p="ITriangle.cs" t="Include" />
-                  <e p="Point.cs" t="Include" />
-                  <e p="Polygon.cs" t="Include" />
-                  <e p="Rectangle.cs" t="Include" />
-                  <e p="RegionPointer.cs" t="Include" />
-                  <e p="Segment.cs" t="Include" />
-                  <e p="Vertex.cs" t="Include" />
-                </e>
-                <e p="IO" t="Include">
-                  <e p="DebugWriter.cs" t="Include" />
-                  <e p="FileProcessor.cs" t="Include" />
-                  <e p="IFileFormat.cs" t="Include" />
-                  <e p="IMeshFormat.cs" t="Include" />
-                  <e p="InputTriangle.cs" t="Include" />
-                  <e p="IPolygonFormat.cs" t="Include" />
-                  <e p="TriangleFormat.cs" t="Include" />
-                  <e p="TriangleReader.cs" t="Include" />
-                  <e p="TriangleWriter.cs" t="Include" />
-                </e>
-                <e p="IPredicates.cs" t="Include" />
-                <e p="Log.cs" t="Include" />
-                <e p="Logging" t="Include">
-                  <e p="ILog.cs" t="Include" />
-                  <e p="ILogItem.cs" t="Include" />
-                  <e p="LogItem.cs" t="Include" />
-                </e>
-                <e p="Mesh.cs" t="Include" />
-                <e p="Meshing" t="Include">
-                  <e p="Algorithm" t="Include">
-                    <e p="Dwyer.cs" t="Include" />
-                    <e p="Incremental.cs" t="Include" />
-                    <e p="SweepLine.cs" t="Include" />
-                  </e>
-                  <e p="ConstraintMesher.cs" t="Include" />
-                  <e p="ConstraintOptions.cs" t="Include" />
-                  <e p="Converter.cs" t="Include" />
-                  <e p="Data" t="Include">
-                    <e p="BadSubseg.cs" t="Include" />
-                    <e p="BadTriangle.cs" t="Include" />
-                    <e p="BadTriQueue.cs" t="Include" />
-                  </e>
-                  <e p="GenericMesher.cs" t="Include" />
-                  <e p="IConstraintMesher.cs" t="Include" />
-                  <e p="IMesh.cs" t="Include" />
-                  <e p="IQualityMesher.cs" t="Include" />
-                  <e p="Iterators" t="Include">
-                    <e p="EdgeIterator.cs" t="Include" />
-                    <e p="RegionIterator.cs" t="Include" />
-                  </e>
-                  <e p="ITriangulator.cs" t="Include" />
-                  <e p="QualityMesher.cs" t="Include" />
-                  <e p="QualityOptions.cs" t="Include" />
-                </e>
-                <e p="MeshValidator.cs" t="Include" />
-                <e p="NewLocation.cs" t="Include" />
-                <e p="Properties" t="Include">
-                  <e p="AssemblyInfo.cs" t="Include" />
-                </e>
-                <e p="RobustPredicates.cs" t="Include" />
-                <e p="Smoothing" t="Include">
-                  <e p="ISmoother.cs" t="Include" />
-                  <e p="SimpleSmoother.cs" t="Include" />
-                  <e p="VoronoiFactory.cs" t="Include" />
-                </e>
-                <e p="Tools" t="Include">
-                  <e p="AdjacencyMatrix.cs" t="Include" />
-                  <e p="CuthillMcKee.cs" t="Include" />
-                  <e p="Interpolation.cs" t="Include" />
-                  <e p="IntersectionHelper.cs" t="Include" />
-                  <e p="PolygonValidator.cs" t="Include" />
-                  <e p="QualityMeasure.cs" t="Include" />
-                  <e p="Statistic.cs" t="Include" />
-                  <e p="TriangleQuadTree.cs" t="Include" />
-                  <e p="VertexSorter.cs" t="Include" />
-                </e>
-                <e p="Topology" t="Include">
-                  <e p="DCEL" t="Include">
-                    <e p="DcelMesh.cs" t="Include" />
-                    <e p="Face.cs" t="Include" />
-                    <e p="HalfEdge.cs" t="Include" />
-                    <e p="Vertex.cs" t="Include" />
-                  </e>
-                  <e p="Osub.cs" t="Include" />
-                  <e p="Otri.cs" t="Include" />
-                  <e p="SubSegment.cs" t="Include" />
-                  <e p="Triangle.cs" t="Include" />
-                </e>
-                <e p="TriangleLocator.cs" t="Include" />
-                <e p="TrianglePool.cs" t="Include" />
-                <e p="TriangleSampler.cs" t="Include" />
-                <e p="Unity.2D.Animation.Triangle.Runtime.asmdef" t="Include" />
-                <e p="Voronoi" t="Include">
-                  <e p="BoundedVoronoi.cs" t="Include" />
-                  <e p="DefaultVoronoiFactory.cs" t="Include" />
-                  <e p="IVoronoiFactory.cs" t="Include" />
-                  <e p="Legacy" t="Include">
-                    <e p="BoundedVoronoiLegacy.cs" t="Include" />
-                    <e p="IVoronoi.cs" t="Include" />
-                    <e p="SimpleVoronoi.cs" t="Include" />
-                    <e p="VoronoiRegion.cs" t="Include" />
-                  </e>
-                  <e p="StandardVoronoi.cs" t="Include" />
-                  <e p="VoronoiBase.cs" t="Include" />
-                </e>
-              </e>
               <e p="Unity.2D.Animation.Runtime.asmdef" t="Include" />
               <e p="UpdateBoundsJob.cs" t="Include" />
-              <e p="UpdateBoundsSystem.cs" t="Include" />
+            </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Unity.2D.Animation.EditorTests.asmdef" t="Include" />
+              </e>
             </e>
           </e>
-          <e p="com.unity.2d.common@4.1.0" t="Include">
+          <e p="com.unity.2d.common@6.0.2" t="Include">
             <e p="Editor" t="Include">
               <e p="AssemblyInfo.cs" t="Include" />
               <e p="ImagePacker" t="Include">
@@ -559,6 +461,7 @@
                   <e p="FindTightRectJob.cs" t="Include" />
                 </e>
               </e>
+              <e p="InspectorUtils.cs" t="Include" />
               <e p="InternalBridge" t="Include">
                 <e p="AssemblyInfo.cs" t="Include" />
                 <e p="InternalBridgeDef.asmdef" t="Include" />
@@ -580,9 +483,22 @@
                 <e p="InternalEngineBridge.cs" t="Include" />
               </e>
               <e p="Unity.2D.Common.Runtime.asmdef" t="Include" />
+              <e p="UTess2D" t="Include">
+                <e p="ArraySlice.cs" t="Include" />
+                <e p="PlanarGraph.cs" t="Include" />
+                <e p="Refinery.cs" t="Include" />
+                <e p="Smoothen.cs" t="Include" />
+                <e p="Tessellator.cs" t="Include" />
+                <e p="UTess.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Unity.2D.Common.EditorTests.asmdef" t="Include" />
+              </e>
             </e>
           </e>
-          <e p="com.unity.2d.path@4.0.2" t="Include">
+          <e p="com.unity.2d.path@5.0.1" t="Include">
             <e p="Editor" t="Include">
               <e p="EditablePath" t="Include">
                 <e p="BezierUtility.cs" t="Include" />
@@ -646,8 +562,11 @@
               </e>
               <e p="Unity.2D.Path.Editor.asmdef" t="Include" />
             </e>
+            <e p="Tests" t="Include">
+              <e p="Unity.2D.Path.Tests.asmdef" t="Include" />
+            </e>
           </e>
-          <e p="com.unity.2d.pixel-perfect@4.0.1" t="Include">
+          <e p="com.unity.2d.pixel-perfect@5.0.1" t="Include">
             <e p="Editor" t="Include">
               <e p="CinemachinePixelPerfectEditor.cs" t="Include" />
               <e p="ObjectMenuCreation" t="Include">
@@ -663,16 +582,28 @@
               <e p="PixelPerfectCameraInternal.cs" t="Include" />
               <e p="Unity.2D.PixelPerfect.asmdef" t="Include" />
             </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Unity.2D.PixelPerfect.Editor.Tests.asmdef" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="Unity.2D.PixelPerfect.Tests.asmdef" t="Include" />
+              </e>
+            </e>
           </e>
-          <e p="com.unity.2d.psdimporter@4.2.0" t="Include">
+          <e p="com.unity.2d.psdimporter@6.0.2" t="Include">
             <e p="Editor" t="Include">
               <e p="Analytics.cs" t="Include" />
               <e p="AssemblyInfo.cs" t="Include" />
+              <e p="ImportUtilites.cs" t="Include" />
+              <e p="PSDImportData.cs" t="Include" />
               <e p="PSDImporter.cs" t="Include" />
               <e p="PSDImporterDataProvider.cs" t="Include" />
               <e p="PSDImporterEditor.cs" t="Include" />
+              <e p="PSDImporterEditorLayerTreeView.cs" t="Include" />
               <e p="PSDImportPostProcessor.cs" t="Include" />
               <e p="PSDLayer.cs" t="Include" />
+              <e p="PSDLayerMappingStrategy.cs" t="Include" />
               <e p="PSDPlugin" t="Include">
                 <e p="AssemblyInfo.cs" t="Include" />
                 <e p="PDNWrapper" t="Include">
@@ -747,6 +678,11 @@
               <e p="TextureSettingsGUI.cs" t="Include" />
               <e p="Unity.2D.Psdimporter.Editor.asmdef" t="Include" />
             </e>
+            <e p="Tests" t="Include">
+              <e p="EditorTests" t="Include">
+                <e p="Unity.2D.Psdimporter.EditorTests.asmdef" t="Include" />
+              </e>
+            </e>
           </e>
           <e p="com.unity.2d.sprite@1.0.0" t="Include">
             <e p="Editor" t="Include">
@@ -777,6 +713,8 @@
                 <e p="SpriteEditorMenu.cs" t="Include" />
                 <e p="SpriteEditorUtility.cs" t="Include" />
                 <e p="SpriteEditorWindow.cs" t="Include" />
+                <e p="SpriteEditorWindowSettings.cs" t="Include" />
+                <e p="SpriteNameFileIdPair.cs" t="Include" />
                 <e p="SpriteRect.cs" t="Include" />
                 <e p="SpriteUtilityWindow.cs" t="Include" />
               </e>
@@ -784,6 +722,7 @@
                 <e p="ISpriteEditorModule.cs" t="Include" />
                 <e p="SpriteEditorData.cs" t="Include" />
                 <e p="SpriteFrameModule" t="Include">
+                  <e p="DefaultSpriteNameFileIdDataProvider.cs" t="Include" />
                   <e p="SpriteFrameModule.cs" t="Include" />
                   <e p="SpriteFrameModuleBase.cs" t="Include" />
                   <e p="SpriteFrameModuleBaseView.cs" t="Include" />
@@ -806,8 +745,13 @@
               </e>
               <e p="Unity.2D.Sprite.Editor.asmdef" t="Include" />
             </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Unity.2D.Sprite.Package.EditorTests.asmdef" t="Include" />
+              </e>
+            </e>
           </e>
-          <e p="com.unity.2d.spriteshape@5.2.0" t="Include">
+          <e p="com.unity.2d.spriteshape@7.0.3" t="Include">
             <e p="Editor" t="Include">
               <e p="AngleRangeController.cs" t="Include" />
               <e p="AngleRangeGUI.cs" t="Include" />
@@ -860,9 +804,10 @@
               <e p="SpriteShapeGenerator.cs" t="Include" />
               <e p="SpriteShapeGeometryCache.cs" t="Include" />
               <e p="Unity.2D.SpriteShape.Runtime.asmdef" t="Include" />
-              <e p="UTess2D" t="Include">
-                <e p="ArraySlice.cs" t="Include" />
-                <e p="Tessellator.cs" t="Include" />
+            </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Unity.2D.SpriteShape.EditorTests.asmdef" t="Include" />
               </e>
             </e>
           </e>
@@ -872,13 +817,18 @@
               <e p="CreateTileFromPaletteAttribute.cs" t="Include" />
               <e p="EditorTools" t="Include">
                 <e p="BoxTool.cs" t="Include" />
+                <e p="BrushToolsAttribute.cs" t="Include" />
                 <e p="EraseTool.cs" t="Include" />
                 <e p="FillTool.cs" t="Include" />
+                <e p="FlipTool.cs" t="Include" />
                 <e p="MoveTool.cs" t="Include" />
                 <e p="PaintTool.cs" t="Include" />
                 <e p="PickingTool.cs" t="Include" />
+                <e p="RotateTool.cs" t="Include" />
                 <e p="SelectTool.cs" t="Include" />
                 <e p="TilemapEditorTool.cs" t="Include" />
+                <e p="TilemapEditorToolPreferences.cs" t="Include" />
+                <e p="TilemapEditorToolPreferencesAsset.cs" t="Include" />
               </e>
               <e p="GridBrush.cs" t="Include" />
               <e p="GridBrushEditor.cs" t="Include" />
@@ -908,13 +858,124 @@
               <e p="SceneViewGridManager.cs" t="Include" />
               <e p="SceneViewOpenTilePaletteHelper.cs" t="Include" />
               <e p="TileDragAndDrop.cs" t="Include" />
+              <e p="TileDragAndDropHoverData.cs" t="Include" />
               <e p="TileDragAndDropManager.cs" t="Include" />
               <e p="TilemapPrefabStageHelper.cs" t="Include" />
               <e p="TileUtility.cs" t="Include" />
+              <e p="UI" t="Include">
+                <e p="SceneViewOpenTilePaletteOverlay.cs" t="Include" />
+                <e p="SceneViewTilemapFocusOverlay.cs" t="Include" />
+              </e>
               <e p="Unity.2D.Tilemap.Editor.asmdef" t="Include" />
             </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Unity.2D.Tilemap.Package.EditorTests.asmdef" t="Include" />
+              </e>
+            </e>
           </e>
-          <e p="com.unity.cinemachine@2.6.11" t="Include">
+          <e p="com.unity.burst@1.6.4" t="Include">
+            <e p="Editor" t="Include">
+              <e p="BurstAotCompiler.cs" t="Include" />
+              <e p="BurstAotSettings.cs" t="Include" />
+              <e p="BurstDisassembler.Core.ARM64.cs" t="Include" />
+              <e p="BurstDisassembler.Core.cs" t="Include" />
+              <e p="BurstDisassembler.Core.LLVMIR.cs" t="Include" />
+              <e p="BurstDisassembler.Core.Wasm.cs" t="Include" />
+              <e p="BurstDisassembler.Core.x86.cs" t="Include" />
+              <e p="BurstDisassembler.cs" t="Include" />
+              <e p="BurstInspectorGUI.cs" t="Include" />
+              <e p="BurstLoader.cs" t="Include" />
+              <e p="BurstMenu.cs" t="Include" />
+              <e p="LongTextArea.cs" t="Include" />
+              <e p="Unity.Burst.Editor.asmdef" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="BurstCompileAttribute.cs" t="Include" />
+              <e p="BurstCompiler.cs" t="Include" />
+              <e p="BurstCompilerOptions.cs" t="Include" />
+              <e p="BurstExecutionEnvironment.cs" t="Include" />
+              <e p="BurstRuntime.cs" t="Include" />
+              <e p="BurstString.cs" t="Include" />
+              <e p="BurstString.Float.cs" t="Include" />
+              <e p="CompilerServices" t="Include">
+                <e p="Aliasing.cs" t="Include" />
+                <e p="AssumeRangeAttribute.cs" t="Include" />
+                <e p="Constant.cs" t="Include" />
+                <e p="Hint.cs" t="Include" />
+                <e p="IgnoreWarningAttribute.cs" t="Include" />
+                <e p="Loop.cs" t="Include" />
+                <e p="SkipLocalsInitAttribute.cs" t="Include" />
+                <e p="SPMD.cs" t="Include" />
+              </e>
+              <e p="DiagnosticId.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="BurstCompileTarget.cs" t="Include" />
+                <e p="BurstEditorOptions.cs" t="Include" />
+                <e p="BurstEditorUtility.cs" t="Include" />
+                <e p="BurstLoader.cs" t="Include" />
+                <e p="BurstReflection.cs" t="Include" />
+                <e p="Unity.Burst.ForEditor.asmref" t="Include" />
+              </e>
+              <e p="FunctionPointer.cs" t="Include" />
+              <e p="Intrinsics" t="Include">
+                <e p="Arm" t="Include">
+                  <e p="NEON.cs" t="Include" />
+                  <e p="NEON_AArch64.cs" t="Include" />
+                  <e p="NEON_AArch64_crypto.cs" t="Include" />
+                  <e p="NEON_AArch64_dotprod.cs" t="Include" />
+                  <e p="NEON_AArch64_fp16.cs" t="Include" />
+                  <e p="NEON_AArch64_rdma.cs" t="Include" />
+                  <e p="NEON_ctor.cs" t="Include" />
+                </e>
+                <e p="common.cs" t="Include" />
+                <e p="f16.cs" t="Include" />
+                <e p="SimdDebugViews.cs" t="Include" />
+                <e p="v128.cs" t="Include" />
+                <e p="v256.cs" t="Include" />
+                <e p="v64.cs" t="Include" />
+                <e p="x86" t="Include">
+                  <e p="Avx.cs" t="Include" />
+                  <e p="Avx2.cs" t="Include" />
+                  <e p="Bmi1.cs" t="Include" />
+                  <e p="Bmi2.cs" t="Include" />
+                  <e p="common.cs" t="Include" />
+                  <e p="Csr.cs" t="Include" />
+                  <e p="F16C.cs" t="Include" />
+                  <e p="Fma.cs" t="Include" />
+                  <e p="Popcnt.cs" t="Include" />
+                  <e p="Sse.cs" t="Include" />
+                  <e p="Sse2.cs" t="Include" />
+                  <e p="Sse3.cs" t="Include" />
+                  <e p="Sse4_1.cs" t="Include" />
+                  <e p="Sse4_2.cs" t="Include" />
+                  <e p="Ssse3.cs" t="Include" />
+                </e>
+              </e>
+              <e p="NoAliasAttribute.cs" t="Include" />
+              <e p="SharedStatic.cs" t="Include" />
+              <e p="Unity.Burst.asmdef" t="Include" />
+            </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="SeparateAssembly" t="Include">
+                  <e p="SeparateAssembly.asmdef" t="Include" />
+                </e>
+                <e p="Unity.Burst.Editor.Tests.asmdef" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="Unity.Burst.Tests.asmdef" t="Include" />
+              </e>
+            </e>
+            <e p="Unity.Burst.CodeGen" t="Include">
+              <e p="AssemblyLoader.cs" t="Include" />
+              <e p="BurstILPostProcessor.cs" t="Include" />
+              <e p="FunctionPointerInvokeTransform.cs" t="Include" />
+              <e p="ILPostProcessing.cs" t="Include" />
+              <e p="Unity.Burst.CodeGen.asmdef" t="Include" />
+            </e>
+          </e>
+          <e p="com.unity.cinemachine@2.8.4" t="Include">
             <e p="Editor" t="Include">
               <e p="com.unity.cinemachine.Editor.asmdef" t="Include" />
               <e p="EditorResources" t="Include">
@@ -931,6 +992,7 @@
                 <e p="CinemachineClearShotEditor.cs" t="Include" />
                 <e p="CinemachineColliderEditor.cs" t="Include" />
                 <e p="CinemachineComposerEditor.cs" t="Include" />
+                <e p="CinemachineConfiner2DEditor.cs" t="Include" />
                 <e p="CinemachineConfinerEditor.cs" t="Include" />
                 <e p="CinemachineExternalCameraEditor.cs" t="Include" />
                 <e p="CinemachineFramingTransposerEditor.cs" t="Include" />
@@ -957,7 +1019,6 @@
               <e p="Experimental" t="Include">
                 <e p="CinemachineNewFreeLookEditor.cs" t="Include" />
                 <e p="CinemachineNewVirtualCameraEditor.cs" t="Include" />
-                <e p="VcamStageEditor.cs" t="Include" />
               </e>
               <e p="Helpers" t="Include">
                 <e p="CinemachineTriggerActionEditor.cs" t="Include" />
@@ -983,7 +1044,6 @@
                 <e p="CinemachineBlendDefinitionPropertyDrawer.cs" t="Include" />
                 <e p="CinemachineTagFieldPropertyDrawer.cs" t="Include" />
                 <e p="EmbeddedAssetPropertyDrawer.cs" t="Include" />
-                <e p="LensSettingsPropertyDrawer.cs" t="Include" />
                 <e p="NoiseSettingsPropertyDrawer.cs" t="Include" />
                 <e p="OrbitalTransposerHeadingPropertyDrawer.cs" t="Include" />
                 <e p="VcamTargetPropertyDrawer.cs" t="Include" />
@@ -994,6 +1054,7 @@
               </e>
               <e p="Utility" t="Include">
                 <e p="BaseEditor.cs" t="Include" />
+                <e p="CinemachineEditorAnalytics.cs" t="Include" />
                 <e p="CinemachineLensPresets.cs" t="Include" />
                 <e p="EmbeddedAssetHelpers.cs" t="Include" />
                 <e p="InspectorUtility.cs" t="Include" />
@@ -1001,9 +1062,9 @@
                 <e p="SaveDuringPlay.cs" t="Include" />
                 <e p="ScriptableObjectUtility.cs" t="Include" />
                 <e p="SerializedPropertyHelper.cs" t="Include" />
+                <e p="VcamStageEditor.cs" t="Include" />
               </e>
               <e p="Windows" t="Include">
-                <e p="AboutWindow.cs" t="Include" />
                 <e p="CinemachineColliderPrefs.cs" t="Include" />
                 <e p="CinemachineSettings.cs" t="Include" />
                 <e p="WaveformWindow.cs" t="Include" />
@@ -1019,6 +1080,7 @@
                 <e p="CinemachineClearShot.cs" t="Include" />
                 <e p="CinemachineCollider.cs" t="Include" />
                 <e p="CinemachineConfiner.cs" t="Include" />
+                <e p="CinemachineConfiner2D.cs" t="Include" />
                 <e p="CinemachineDollyCart.cs" t="Include" />
                 <e p="CinemachineExternalCamera.cs" t="Include" />
                 <e p="CinemachineFollowZoom.cs" t="Include" />
@@ -1062,6 +1124,7 @@
                 <e p="CinemachinePathBase.cs" t="Include" />
                 <e p="CinemachinePropertyAttribute.cs" t="Include" />
                 <e p="CinemachineVirtualCameraBase.cs" t="Include" />
+                <e p="ConfinerOven.cs" t="Include" />
                 <e p="GaussianFilter.cs" t="Include" />
                 <e p="ICinemachineCamera.cs" t="Include" />
                 <e p="ICinemachineComponent.cs" t="Include" />
@@ -1103,6 +1166,14 @@
                 <e p="CinemachineShot.cs" t="Include" />
                 <e p="CinemachineShotPlayable.cs" t="Include" />
                 <e p="CinemachineTrack.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="com.unity.cinemachine.EditorTests.asmdef" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="com.unity.cinemachine.Tests.asmdef" t="Include" />
               </e>
             </e>
           </e>
@@ -1719,8 +1790,18 @@
                 <e p="WorkspaceWindow.cs" t="Include" />
               </e>
             </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Collaborate" t="Include">
+                  <e p="Unity.CollabProxy.EditorTests.asmdef" t="Include" />
+                </e>
+                <e p="PlasticSCM" t="Include">
+                  <e p="Unity.PlasticSCM.EditorTests.asmdef" t="Include" />
+                </e>
+              </e>
+            </e>
           </e>
-          <e p="com.unity.ide.rider@2.0.7" t="Include">
+          <e p="com.unity.ide.rider@3.0.12" t="Include">
             <e p="Rider" t="Include">
               <e p="Editor" t="Include">
                 <e p="com.unity.ide.rider.asmdef" t="Include" />
@@ -1741,6 +1822,7 @@
                   <e p="IGUIDGenerator.cs" t="Include" />
                   <e p="ProjectGeneration.cs" t="Include" />
                   <e p="ProjectGenerationFlag.cs" t="Include" />
+                  <e p="ProjectPart.cs" t="Include" />
                   <e p="SolutionGuidGenerator.cs" t="Include" />
                 </e>
                 <e p="Properties" t="Include">
@@ -1750,6 +1832,7 @@
                 <e p="RiderInitializer.cs" t="Include" />
                 <e p="RiderScriptEditor.cs" t="Include" />
                 <e p="RiderScriptEditorData.cs" t="Include" />
+                <e p="RiderStyles.cs" t="Include" />
                 <e p="UnitTesting" t="Include">
                   <e p="CallbackData.cs" t="Include" />
                   <e p="CallbackInitializer.cs" t="Include" />
@@ -1764,7 +1847,9 @@
                   <e p="FileSystemUtil.cs" t="Include" />
                   <e p="LibcNativeInterop.cs" t="Include" />
                   <e p="RiderMenu.cs" t="Include" />
+                  <e p="RiderPathUtil.cs" t="Include" />
                   <e p="SerializableVersion.cs" t="Include" />
+                  <e p="StringUtils.cs" t="Include" />
                 </e>
               </e>
             </e>
@@ -1834,7 +1919,10 @@
               <e p="VSCodeScriptEditor.cs" t="Include" />
             </e>
           </e>
-          <e p="com.unity.mathematics@1.1.0" t="Include">
+          <e p="com.unity.mathematics@1.2.5" t="Include">
+            <e p="Tests" t="Include">
+              <e p="Unity.Mathematics.Tests.asmdef" t="Include" />
+            </e>
             <e p="Unity.Mathematics" t="Include">
               <e p="bool2.gen.cs" t="Include" />
               <e p="bool2x2.gen.cs" t="Include" />
@@ -1872,10 +1960,15 @@
               <e p="float4x2.gen.cs" t="Include" />
               <e p="float4x3.gen.cs" t="Include" />
               <e p="float4x4.gen.cs" t="Include" />
+              <e p="Geometry" t="Include">
+                <e p="MinMaxAABB.cs" t="Include" />
+                <e p="Plane.cs" t="Include" />
+              </e>
               <e p="half.cs" t="Include" />
               <e p="half2.gen.cs" t="Include" />
               <e p="half3.gen.cs" t="Include" />
               <e p="half4.gen.cs" t="Include" />
+              <e p="Il2CppEagerStaticClassConstructionAttribute.cs" t="Include" />
               <e p="int2.gen.cs" t="Include" />
               <e p="int2x2.gen.cs" t="Include" />
               <e p="int2x3.gen.cs" t="Include" />
@@ -1906,6 +1999,9 @@
                 <e p="noise3Dgrad.cs" t="Include" />
                 <e p="noise4D.cs" t="Include" />
                 <e p="psrdnoise2D.cs" t="Include" />
+              </e>
+              <e p="Properties" t="Include">
+                <e p="AssemblyInfo.cs" t="Include" />
               </e>
               <e p="PropertyAttributes.cs" t="Include" />
               <e p="quaternion.cs" t="Include" />
@@ -2527,8 +2623,19 @@
                 <e p="Unity.TextMeshPro.asmdef" t="Include" />
               </e>
             </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Unity.TextMeshPro.Editor.Tests.asmdef" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="Unity.TextMeshPro.Tests.asmdef" t="Include" />
+              </e>
+            </e>
           </e>
-          <e p="com.unity.timeline@1.4.8" t="Include">
+          <e p="com.unity.timeline@1.6.4" t="Include">
+            <e p="DocCodeExamples" t="Include">
+              <e p="DocCodeExamples.asmdef" t="Include" />
+            </e>
             <e p="Editor" t="Include">
               <e p="Actions" t="Include">
                 <e p="ActionContext.cs" t="Include" />
@@ -2620,7 +2727,9 @@
                 <e p="DirectorNamedColorInspector.cs" t="Include" />
                 <e p="EditorClip.cs" t="Include" />
                 <e p="EditorClipFactory.cs" t="Include" />
+                <e p="FrameRateDrawer.cs" t="Include" />
                 <e p="GroupTrackInspector.cs" t="Include" />
+                <e p="IInspectorChangeHandler.cs" t="Include" />
                 <e p="MarkerInspector.cs" t="Include" />
                 <e p="TimeFieldDrawer.cs" t="Include" />
                 <e p="TimelineAssetInspector.cs" t="Include" />
@@ -2637,6 +2746,9 @@
                 <e p="ITimelineItem.cs" t="Include" />
                 <e p="MarkerItem.cs" t="Include" />
               </e>
+              <e p="Localization" t="Include">
+                <e p="Localization.cs" t="Include" />
+              </e>
               <e p="Manipulators" t="Include">
                 <e p="AddDelete" t="Include">
                   <e p="AddDeleteItemModeMix.cs" t="Include" />
@@ -2649,6 +2761,7 @@
                 </e>
                 <e p="EditMode.cs" t="Include" />
                 <e p="EditModeInputHandler.cs" t="Include" />
+                <e p="HeaderSplitterManipulator.cs" t="Include" />
                 <e p="Move" t="Include">
                   <e p="IMoveItemMode.cs" t="Include" />
                   <e p="MoveItemHandler.cs" t="Include" />
@@ -2660,7 +2773,7 @@
                 <e p="Sequence" t="Include">
                   <e p="EaseClip.cs" t="Include" />
                   <e p="Jog.cs" t="Include" />
-                  <e p="MarkerHeaderContextMenu.cs" t="Include" />
+                  <e p="MarkerHeaderTrackManipulator.cs" t="Include" />
                   <e p="RectangleSelect.cs" t="Include" />
                   <e p="RectangleTool.cs" t="Include" />
                   <e p="RectangleZoom.cs" t="Include" />
@@ -2811,6 +2924,8 @@
                 <e p="ControlPlayableUtility.cs" t="Include" />
                 <e p="CustomTrackDrawerAttribute.cs" t="Include" />
                 <e p="DisplayNameHelper.cs" t="Include" />
+                <e p="FileUtility.cs" t="Include" />
+                <e p="FrameRateDisplayUtility.cs" t="Include" />
                 <e p="Graphics.cs" t="Include" />
                 <e p="KeyTraverser.cs" t="Include" />
                 <e p="MarkerModifier.cs" t="Include" />
@@ -2832,6 +2947,7 @@
                 <e p="SpacePartitioner.cs" t="Include" />
                 <e p="StyleManager.cs" t="Include" />
                 <e p="StyleNormalColorOverride.cs" t="Include" />
+                <e p="TimeFormat.cs" t="Include" />
                 <e p="TimelineKeyboardNavigation.cs" t="Include" />
                 <e p="TimeReferenceUtility.cs" t="Include" />
                 <e p="TrackModifier.cs" t="Include" />
@@ -2848,8 +2964,12 @@
                   <e p="TimelineReadOnlyMode.cs" t="Include" />
                   <e p="TimeReferenceMode.cs" t="Include" />
                 </e>
+                <e p="OverlayDrawer.cs" t="Include" />
                 <e p="PlaybackScroller.cs" t="Include" />
+                <e p="SequenceContext.cs" t="Include" />
+                <e p="TimelineEditorWindow.cs" t="Include" />
                 <e p="TimelineMarkerHeaderGUI.cs" t="Include" />
+                <e p="TimelineNavigator.cs" t="Include" />
                 <e p="TimelineWindow.cs" t="Include" />
                 <e p="TimelineWindow_ActiveTimeline.cs" t="Include" />
                 <e p="TimelineWindow_Breadcrumbs.cs" t="Include" />
@@ -2858,6 +2978,7 @@
                 <e p="TimelineWindow_Gui.cs" t="Include" />
                 <e p="TimelineWindow_HeaderGui.cs" t="Include" />
                 <e p="TimelineWindow_Manipulators.cs" t="Include" />
+                <e p="TimelineWindow_Navigator.cs" t="Include" />
                 <e p="TimelineWindow_PlayableLookup.cs" t="Include" />
                 <e p="TimelineWindow_PlayRange.cs" t="Include" />
                 <e p="TimelineWindow_PreviewPlayMode.cs" t="Include" />
@@ -2866,6 +2987,7 @@
                 <e p="TimelineWindow_TimeArea.cs" t="Include" />
                 <e p="TimelineWindow_TimeCursor.cs" t="Include" />
                 <e p="TimelineWindow_TrackGui.cs" t="Include" />
+                <e p="TimelineWindowAnalytics.cs" t="Include" />
                 <e p="TimelineWindowTimeControl.cs" t="Include" />
                 <e p="ViewModel" t="Include">
                   <e p="ScriptableObjectViewPrefs.cs" t="Include" />
@@ -2896,6 +3018,7 @@
                 <e p="TrackUpgrade.cs" t="Include" />
               </e>
               <e p="Attributes" t="Include">
+                <e p="TimelineHelpURLAttribute.cs" t="Include" />
                 <e p="TrackColorAttribute.cs" t="Include" />
               </e>
               <e p="Audio" t="Include">
@@ -2966,10 +3089,12 @@
                 <e p="AnimationPreviewUtilities.cs" t="Include" />
                 <e p="AnimatorBindingCache.cs" t="Include" />
                 <e p="Extrapolation.cs" t="Include" />
+                <e p="FrameRate.cs" t="Include" />
                 <e p="HashUtility.cs" t="Include" />
                 <e p="IPropertyCollector.cs" t="Include" />
                 <e p="IPropertyPreview.cs" t="Include" />
                 <e p="NotificationUtilities.cs" t="Include" />
+                <e p="TimelineClipExtensions.cs" t="Include" />
                 <e p="TimelineCreateUtilities.cs" t="Include" />
                 <e p="TimelineUndo.cs" t="Include" />
                 <e p="TimeUtility.cs" t="Include" />
@@ -3055,6 +3180,10 @@
                 </e>
                 <e p="RaycastResult.cs" t="Include" />
                 <e p="UIBehaviour.cs" t="Include" />
+                <e p="UIElements" t="Include">
+                  <e p="PanelEventHandler.cs" t="Include" />
+                  <e p="PanelRaycaster.cs" t="Include" />
+                </e>
               </e>
               <e p="Properties" t="Include">
                 <e p="AssemblyInfo.cs" t="Include" />
@@ -3126,8 +3255,6 @@
                   <e p="Toggle.cs" t="Include" />
                   <e p="ToggleGroup.cs" t="Include" />
                   <e p="Utility" t="Include">
-                    <e p="ListPool.cs" t="Include" />
-                    <e p="ObjectPool.cs" t="Include" />
                     <e p="ReflectionMethodsCache.cs" t="Include" />
                     <e p="VertexHelper.cs" t="Include" />
                   </e>
@@ -3142,48 +3269,75 @@
               </e>
               <e p="UnityEngine.UI.asmdef" t="Include" />
             </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="UnityEditor.UI.EditorTests.asmdef" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="UnityEngine.UI.Tests.asmdef" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="PsdPlugin.csproj" t="IncludeRecursive" />
+      <e p="SeparateAssembly.Player.csproj" t="IncludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
       <e p="TowerDefence.sln" t="IncludeFlat" />
       <e p="Unity.2D.Animation.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.2D.Animation.EditorTests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.Animation.Runtime.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.Animation.Runtime.Player.csproj" t="IncludeRecursive" />
-      <e p="Unity.2D.Animation.Triangle.Runtime.csproj" t="IncludeRecursive" />
-      <e p="Unity.2D.Animation.Triangle.Runtime.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.Common.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.2D.Common.EditorTests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.Common.Runtime.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.Common.Runtime.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.IK.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.IK.Runtime.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.IK.Runtime.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.Path.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.2D.Path.Tests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.PixelPerfect.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.PixelPerfect.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.2D.PixelPerfect.Editor.Tests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.PixelPerfect.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.2D.PixelPerfect.Tests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.Psdimporter.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.2D.Psdimporter.EditorTests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.Sprite.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.2D.Sprite.Package.EditorTests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.SpriteShape.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.2D.SpriteShape.EditorTests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.SpriteShape.Runtime.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.SpriteShape.Runtime.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.Tilemap.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.2D.Tilemap.Package.EditorTests.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.Burst.CodeGen.csproj" t="IncludeRecursive" />
+      <e p="Unity.Burst.csproj" t="IncludeRecursive" />
+      <e p="Unity.Burst.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.Burst.Editor.Tests.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.Burst.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.Burst.Tests.UnitTests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.CollabProxy.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.CollabProxy.EditorTests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.InternalAPIEditorBridge.001.csproj" t="IncludeRecursive" />
       <e p="Unity.InternalAPIEngineBridge.001.csproj" t="IncludeRecursive" />
       <e p="Unity.InternalAPIEngineBridge.001.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.Mathematics.csproj" t="IncludeRecursive" />
       <e p="Unity.Mathematics.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.Mathematics.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.Mathematics.Tests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.PlasticSCM.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.PlasticSCM.EditorTests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.Rider.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.Services.Core.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.TextMeshPro.csproj" t="IncludeRecursive" />
       <e p="Unity.TextMeshPro.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.TextMeshPro.Editor.Tests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.TextMeshPro.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.TextMeshPro.Tests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.Timeline.csproj" t="IncludeRecursive" />
       <e p="Unity.Timeline.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.Timeline.Player.csproj" t="IncludeRecursive" />
@@ -3191,10 +3345,12 @@
       <e p="Unity.VSCode.Editor.csproj" t="IncludeRecursive" />
       <e p="UnityEditor.TestRunner.csproj" t="IncludeRecursive" />
       <e p="UnityEditor.UI.csproj" t="IncludeRecursive" />
+      <e p="UnityEditor.UI.EditorTests.Player.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.TestRunner.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.TestRunner.Player.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.UI.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.UI.Player.csproj" t="IncludeRecursive" />
+      <e p="UnityEngine.UI.Tests.Player.csproj" t="IncludeRecursive" />
     </e>
     <e p="C:\Users\doveo\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\doveo\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_TowerDefence.-1434333819.00" t="ExcludeRecursive" />
