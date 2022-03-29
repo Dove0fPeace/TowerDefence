@@ -5,6 +5,7 @@ using UnityEngine;
 public class Tower : MonoBehaviour
 {
     private TargetLayer _type;
+    public TargetLayer Type => _type;
     
     [SerializeField] private float m_Radius;
 

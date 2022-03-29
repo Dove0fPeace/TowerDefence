@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 839430875}
   - component: {fileID: 5672488637838063114}
   - component: {fileID: 3657035232793455635}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: BigKnight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Type: 1
   m_Target: {fileID: 8765725734838297058}
   m_Damage: 2
-  m_GoldCost: 5
+  m_GoldCost: 8
 --- !u!1 &944107095824331034
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 944107095824331036}
   - component: {fileID: 1907071052767163638}
   - component: {fileID: 3481724636315210375}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +211,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &944107095824331036
 Animator:
   serializedVersion: 4
@@ -270,7 +270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8765725734838297058}
   - component: {fileID: 8884413121032273087}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

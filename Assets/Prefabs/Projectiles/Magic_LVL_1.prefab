@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2543431705469137010}
   - component: {fileID: 2543431705469137011}
   - component: {fileID: 2543431705469137009}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Magic_LVL_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,6 +74,8 @@ MonoBehaviour:
   m_Damage: 12
   m_ImpactEffectPrefab: {fileID: 0}
   IsPlayerProjectile: 0
+  Static: 0
+  Layer: 0
 --- !u!1 &2543431707001435906
 GameObject:
   m_ObjectHideFlags: 0
@@ -84,7 +86,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2543431707001435907}
   - component: {fileID: 2543431707001435916}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +135,7 @@ GameObject:
   - component: {fileID: 6530022706069409992}
   - component: {fileID: 1026042549166683176}
   - component: {fileID: 2290208088346049728}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Dark_Magic_Sprite_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}

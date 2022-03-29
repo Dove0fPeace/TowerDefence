@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AcidCloud_Tower
   m_EditorClassIdentifier: 
   Type: 1
-  GoldCost: 150
+  GoldCost: 250
   GUISprite: {fileID: 21300000, guid: aa904dd6ec08d3e4a9aaa1eba171fb38, type: 3}
   TowerSprite: {fileID: 21300000, guid: 5b478ccf4baa12c41aa790fd39a38aa5, type: 3}
   TurretProperties: {fileID: 11400000, guid: 0293c0b41d27f844ea3c1df6f006ed8e, type: 2}

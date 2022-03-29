@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 839430875}
   - component: {fileID: 5672488637838063114}
   - component: {fileID: 3657035232793455635}
-  m_Layer: 3
+  m_Layer: 9
   m_Name: Witch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_ScoreValue: 0
   m_PredictionMultiply: 0.5
   m_Indestructible: 0
-  m_HitPoints: 8
+  m_HitPoints: 15
   m_EventOnDeath:
     m_PersistentCalls:
       m_Calls:
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 1907071052767163638}
   - component: {fileID: 3481724636315210375}
   - component: {fileID: 7192279543816907969}
-  m_Layer: 3
+  m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,7 +154,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944107095824331034}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.025, y: 1.389, z: 0}
+  m_LocalPosition: {x: -0.025, y: 1.121, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -212,7 +212,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!114 &1907071052767163638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,7 +271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5292771968504919304}
   - component: {fileID: 5677044126944140018}
-  m_Layer: 3
+  m_Layer: 9
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,7 +286,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4766475431835985216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.019, y: 1.627, z: 0}
+  m_LocalPosition: {x: -0.019, y: 1.359, z: 0}
   m_LocalScale: {x: 0.13, y: 0.13, z: 0.13}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 5452905487386376172}
   - component: {fileID: 8854140248749227851}
   - component: {fileID: 2469878983702861830}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +420,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2f175bd5356ef3e4fae0d649bb437daf, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78039217}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2101267290467618096}
   - component: {fileID: 3702794009957006184}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 839430875}
   - component: {fileID: 5672488637838063114}
   - component: {fileID: 3657035232793455635}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: Knight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 944107095824331036}
   - component: {fileID: 1907071052767163638}
   - component: {fileID: 3481724636315210375}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,7 +295,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &944107095824331036
 Animator:
   serializedVersion: 4

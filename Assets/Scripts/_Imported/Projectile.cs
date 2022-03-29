@@ -18,6 +18,8 @@ namespace _Imported
         public bool Static = false;
         private Enemy _target;
 
+        public TargetLayer Layer;
+
 
         protected float m_Timer;
 
@@ -54,18 +56,21 @@ namespace _Imported
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            Destructible dest = collision.transform.root.GetComponent<Destructible>();
-            if (dest != null)
+            if (collision.transform.root.GetComponent<Enemy>().Type == Layer)
             {
-                dest.ApplyDamage(m_Damage, IsPlayerProjectile);
-                /*
-                if (IsPlayerProjectile && dest.TeamID != Destructible.TeamIDNeutral)
+                Destructible dest = collision.transform.root.GetComponent<Destructible>();
+                if (dest != null)
                 {
-                    Player.Instance.AddScore(dest.ScoreValue);
+                    dest.ApplyDamage(m_Damage, IsPlayerProjectile);
+                    /*
+                    if (IsPlayerProjectile && dest.TeamID != Destructible.TeamIDNeutral)
+                    {
+                        Player.Instance.AddScore(dest.ScoreValue);
+                    }
+                    */
                 }
-                */
+                OnProjectileLifeEnd();
             }
-            OnProjectileLifeEnd();
         }
 
         public void SetEnemy(Enemy target)

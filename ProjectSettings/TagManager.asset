@@ -11,11 +11,11 @@ TagManager:
   - Enemy
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Projectile
+  - Projectile_Air
+  - Projectile_Earth
+  - Enemy_Air
+  - Enemy_Earth
   - 
   - 
   - 

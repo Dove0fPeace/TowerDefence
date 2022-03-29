@@ -17,10 +17,13 @@ public class Turret : MonoBehaviour
     private SpaceShip m_Ship;
     public Enemy Target { get; set; }
 
+    private TargetLayer _targetLayer;
+
     #region UnityEvents
     private void Start()
     {
         m_Ship = transform.root.GetComponent<SpaceShip>();
+        _targetLayer = GetComponentInParent<Tower>().Type;
     }
 
     private void Update()
@@ -57,7 +60,8 @@ public class Turret : MonoBehaviour
         {
             projectile.transform.up = transform.up;
             projectile.SetEnemy(Target);
-            
+            projectile.Layer = _targetLayer;
+
         }
 
         m_RefireTimer = m_TurretProperties.RateOfFire;

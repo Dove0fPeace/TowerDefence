@@ -128,7 +128,7 @@
       <e p="DocCodeExamples.Player.csproj" t="IncludeRecursive" />
       <e p="Library" t="Include">
         <e p="PackageCache" t="Include">
-          <e p="com.unity.2d.animation@7.0.3" t="Include">
+          <e p="com.unity.2d.animation@7.0.4" t="Include">
             <e p="Editor" t="Include">
               <e p="Analytics.cs" t="Include" />
               <e p="AssemblyInfo.cs" t="Include" />
@@ -450,7 +450,7 @@
               </e>
             </e>
           </e>
-          <e p="com.unity.2d.common@6.0.2" t="Include">
+          <e p="com.unity.2d.common@6.0.3" t="Include">
             <e p="Editor" t="Include">
               <e p="AssemblyInfo.cs" t="Include" />
               <e p="ImagePacker" t="Include">
@@ -498,7 +498,7 @@
               </e>
             </e>
           </e>
-          <e p="com.unity.2d.path@5.0.1" t="Include">
+          <e p="com.unity.2d.path@5.0.2" t="Include">
             <e p="Editor" t="Include">
               <e p="EditablePath" t="Include">
                 <e p="BezierUtility.cs" t="Include" />
@@ -591,7 +591,7 @@
               </e>
             </e>
           </e>
-          <e p="com.unity.2d.psdimporter@6.0.2" t="Include">
+          <e p="com.unity.2d.psdimporter@6.0.3" t="Include">
             <e p="Editor" t="Include">
               <e p="Analytics.cs" t="Include" />
               <e p="AssemblyInfo.cs" t="Include" />
@@ -751,7 +751,7 @@
               </e>
             </e>
           </e>
-          <e p="com.unity.2d.spriteshape@7.0.3" t="Include">
+          <e p="com.unity.2d.spriteshape@7.0.4" t="Include">
             <e p="Editor" t="Include">
               <e p="AngleRangeController.cs" t="Include" />
               <e p="AngleRangeGUI.cs" t="Include" />
@@ -808,6 +808,74 @@
             <e p="Tests" t="Include">
               <e p="Editor" t="Include">
                 <e p="Unity.2D.SpriteShape.EditorTests.asmdef" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="com.unity.2d.tilemap.extras@2.2.1" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Brushes" t="Include">
+                <e p="GameObjectBrush" t="Include">
+                  <e p="GameObjectBrush.cs" t="Include" />
+                </e>
+                <e p="GroupBrush" t="Include">
+                  <e p="GroupBrush.cs" t="Include" />
+                </e>
+                <e p="LineBrush" t="Include">
+                  <e p="LineBrush.cs" t="Include" />
+                </e>
+                <e p="RandomBrush" t="Include">
+                  <e p="RandomBrush.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Menu" t="Include">
+                <e p="CustomRuleTileMenu.cs" t="Include" />
+                <e p="MenuItemOrder.cs" t="Include" />
+              </e>
+              <e p="Tiles" t="Include">
+                <e p="HexagonalRuleTile" t="Include">
+                  <e p="HexagonalRuleTileEditor.cs" t="Include" />
+                </e>
+                <e p="IsometricRuleTile" t="Include">
+                  <e p="IsometricRuleTileEditor.cs" t="Include" />
+                </e>
+                <e p="RuleOverrideTile" t="Include">
+                  <e p="AdvancedRuleOverrideTileEditor.cs" t="Include" />
+                  <e p="PopulateRuleOverrideTileWizard.cs" t="Include" />
+                  <e p="RuleOverrideTileEditor.cs" t="Include" />
+                </e>
+                <e p="RuleTile" t="Include">
+                  <e p="RuleTileEditor.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Unity.2D.Tilemap.Extras.Editor.asmdef" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="GridInformation" t="Include">
+                <e p="GridInformation.cs" t="Include" />
+              </e>
+              <e p="Tiles" t="Include">
+                <e p="AnimatedTile" t="Include">
+                  <e p="AnimatedTile.cs" t="Include" />
+                </e>
+                <e p="HexagonalRuleTile" t="Include">
+                  <e p="HexagonalRuleTile.cs" t="Include" />
+                </e>
+                <e p="IsometricRuleTile" t="Include">
+                  <e p="IsometricRuleTile.cs" t="Include" />
+                </e>
+                <e p="RuleOverrideTile" t="Include">
+                  <e p="AdvancedRuleOverrideTile.cs" t="Include" />
+                  <e p="RuleOverrideTile.cs" t="Include" />
+                </e>
+                <e p="RuleTile" t="Include">
+                  <e p="RuleTile.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Unity.2D.Tilemap.Extras.asmdef" t="Include" />
+            </e>
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Unity.2D.Tilemap.Extras.EditorTests.asmdef" t="Include" />
               </e>
             </e>
           </e>
@@ -1177,7 +1245,7 @@
               </e>
             </e>
           </e>
-          <e p="com.unity.collab-proxy@1.15.13" t="Include">
+          <e p="com.unity.collab-proxy@1.15.15" t="Include">
             <e p="Editor" t="Include">
               <e p="Collaborate" t="Include">
                 <e p="Assets" t="Include">
@@ -1443,6 +1511,7 @@
                 </e>
                 <e p="AssetsUtils" t="Include">
                   <e p="AssetsPath.cs" t="Include" />
+                  <e p="GetSelectedPaths.cs" t="Include" />
                   <e p="LoadAsset.cs" t="Include" />
                   <e p="Processor" t="Include">
                     <e p="AssetModificationProcessor.cs" t="Include" />
@@ -1555,6 +1624,9 @@
                 </e>
                 <e p="PlasticWindow.cs" t="Include" />
                 <e p="ProjectWindow.cs" t="Include" />
+                <e p="SceneView" t="Include">
+                  <e p="DrawSceneOperations.cs" t="Include" />
+                </e>
                 <e p="SetupCloudProjectId.cs" t="Include" />
                 <e p="SwitchModeConfirmationDialog.cs" t="Include" />
                 <e p="Tool" t="Include">
@@ -1801,7 +1873,7 @@
               </e>
             </e>
           </e>
-          <e p="com.unity.ide.rider@3.0.12" t="Include">
+          <e p="com.unity.ide.rider@3.0.13" t="Include">
             <e p="Rider" t="Include">
               <e p="Editor" t="Include">
                 <e p="com.unity.ide.rider.asmdef" t="Include" />
@@ -1820,6 +1892,7 @@
                   <e p="IFileIO.cs" t="Include" />
                   <e p="IGenerator.cs" t="Include" />
                   <e p="IGUIDGenerator.cs" t="Include" />
+                  <e p="LastWriteTracker.cs" t="Include" />
                   <e p="ProjectGeneration.cs" t="Include" />
                   <e p="ProjectGenerationFlag.cs" t="Include" />
                   <e p="ProjectPart.cs" t="Include" />
@@ -1828,10 +1901,10 @@
                 <e p="Properties" t="Include">
                   <e p="AssemblyInfo.cs" t="Include" />
                 </e>
-                <e p="RiderFileSystemWatcher.cs" t="Include" />
                 <e p="RiderInitializer.cs" t="Include" />
                 <e p="RiderScriptEditor.cs" t="Include" />
                 <e p="RiderScriptEditorData.cs" t="Include" />
+                <e p="RiderScriptEditorDataPersisted.cs" t="Include" />
                 <e p="RiderStyles.cs" t="Include" />
                 <e p="UnitTesting" t="Include">
                   <e p="CallbackData.cs" t="Include" />
@@ -3313,6 +3386,10 @@
       <e p="Unity.2D.SpriteShape.Runtime.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.SpriteShape.Runtime.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.Tilemap.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.2D.Tilemap.Extras.csproj" t="IncludeRecursive" />
+      <e p="Unity.2D.Tilemap.Extras.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.2D.Tilemap.Extras.Placeholder.EditorTests.Player.csproj" t="IncludeRecursive" />
+      <e p="Unity.2D.Tilemap.Extras.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.2D.Tilemap.Package.EditorTests.Player.csproj" t="IncludeRecursive" />
       <e p="Unity.Burst.CodeGen.csproj" t="IncludeRecursive" />
       <e p="Unity.Burst.csproj" t="IncludeRecursive" />
