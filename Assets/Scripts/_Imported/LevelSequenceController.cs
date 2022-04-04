@@ -5,7 +5,7 @@ namespace _Imported
 {
     public class LevelSequenceController : SingletonBase<LevelSequenceController>
     {
-        public static string MainMenuSceneNickname = "main_Menu";
+        public static string MainMenuSceneNickname = "LevelMap";
 
         public Episode CurrentEpisode { get; private set; }
 
@@ -30,15 +30,16 @@ namespace _Imported
 
         public void RestartLevel()
         {
-            SceneManager.LoadScene(CurrentEpisode.Levels[CurrentLevel]);
+            //SceneManager.LoadScene(CurrentEpisode.Levels[CurrentLevel]);
+            SceneManager.LoadScene(0);
         }
 
         public void FinishCurrentLevel(bool success)
         {
             LastLevelSuccess = success;
 
-            CalculateLevelStatistic();
-            SaveGlobalStatistics();
+            //CalculateLevelStatistic();
+            //SaveGlobalStatistics();
 
             ResultPanelController.Instance.ShowResults(LevelStatistics, LastLevelSuccess);
         }

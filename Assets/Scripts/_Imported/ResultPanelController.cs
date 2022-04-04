@@ -25,16 +25,14 @@ namespace _Imported
         {
             gameObject.SetActive(true);
 
-            Time.timeScale = 0;
-
             m_Success = success;
 
             m_Result.text = success ? "Win" : "Lose";
-            m_ButtonNextText.text = success ? "Next" : "Restart";
-
+            //m_ButtonNextText.text = success ? "Next" : "Restart";
+            /*
             m_Kills.text = "Kills : " + levelResult.numKills.ToString();
             m_Score.text = "Score : " + levelResult.score.ToString();
-            m_Time.text = "Time : " + levelResult.time.ToString();
+            m_Time.text = "Time : " + levelResult.time.ToString();*/
         }
 
         public void OnButtonNextAction()

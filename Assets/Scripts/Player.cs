@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using _Imported;
@@ -7,6 +8,7 @@ public class Player : SingletonBase<Player>
 {
     [SerializeField] private int m_NumLives;
     public int NumLives => m_NumLives;
+    public event Action OnPlayerDead;
     [Space(3)]
     [SerializeField] private SpaceShip m_Ship;
     [SerializeField] private GameObject m_PlayerShipPrefab;
@@ -72,7 +74,8 @@ public class Player : SingletonBase<Player>
         m_NumLives -= damage;
         if(m_NumLives <= 0)
         {
-            LevelSequenceController.Instance.FinishCurrentLevel(false);
+            m_NumLives = 0;
+            OnPlayerDead?.Invoke();
         }
     }
 
