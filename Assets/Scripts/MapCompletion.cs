@@ -10,6 +10,21 @@ public class MapCompletion : SingletonBase<MapCompletion>
         public int Score;
     }
 
+    public const string filename = "completion.dat";
+    
+    [SerializeField] private EpisodeScore[] completionData;
+    
+    public static void SaveEpisodeResult(int result)
+    {
+        Instance.SaveResult(LevelSequenceController.Instance.CurrentEpisode, result);
+    }
+
+    private new void Awake()
+    {
+        base.Awake();
+        Saver<EpisodeScore[]>.TryLoad(filename, ref completionData);
+    }
+
     public bool TryIndex(int id, out Episode episode, out int score)
     {
         if (id >= 0 && id <= completionData.Length)
@@ -23,12 +38,7 @@ public class MapCompletion : SingletonBase<MapCompletion>
         score = 0;
         return false;
     }
-    public static void SaveEpisodeResult(int result)
-    {
-        Instance.SaveResult(LevelSequenceController.Instance.CurrentEpisode, result);
-    }
 
-    [SerializeField] private EpisodeScore[] completionData;
     private void SaveResult(Episode currentEpisode, int result)
     {
         foreach (var item in completionData)
@@ -36,6 +46,7 @@ public class MapCompletion : SingletonBase<MapCompletion>
             if (item.Episode == currentEpisode)
             {
                 if (result > item.Score) item.Score = result;
+                Saver<EpisodeScore[]>.Save(filename, completionData);
             }
         }
     }
