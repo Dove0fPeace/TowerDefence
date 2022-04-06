@@ -10,8 +10,8 @@ namespace _Imported
 
     public class LevelController : SingletonBase<LevelController>
     {
-        [SerializeField] private int m_ReferenceTime;
-        public int ReferenceTime => m_ReferenceTime;
+        [SerializeField] protected float m_ReferenceTime;
+        public float ReferenceTime => m_ReferenceTime;
 
         public UnityEvent EventLevelCompleted;
 
@@ -64,7 +64,7 @@ namespace _Imported
                 EventLevelCompleted?.Invoke();
                 print("Level conditions complete");
 
-                LevelSequenceController.Instance.FinishCurrentLevel(m_IsLevelCompleted);
+                LevelSequenceController.Instance?.FinishCurrentLevel(m_IsLevelCompleted);
             }
         }
 

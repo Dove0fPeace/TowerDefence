@@ -17,7 +17,7 @@ public class TD_Player : Player
         OnGoldUpdate += act;
         act(Instance.CurrentGold);
     }
-    private static event Action<int> OnLifeUpdate;
+    public static event Action<int> OnLifeUpdate;
     public static void HealthUpdateSubscribe(Action<int> act)
     {
         OnLifeUpdate += act;

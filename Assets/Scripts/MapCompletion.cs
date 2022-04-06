@@ -16,7 +16,12 @@ public class MapCompletion : SingletonBase<MapCompletion>
     
     public static void SaveEpisodeResult(int result)
     {
-        Instance.SaveResult(LevelSequenceController.Instance.CurrentEpisode, result);
+        if(Instance)
+            Instance.SaveResult(LevelSequenceController.Instance.CurrentEpisode, result);
+        else
+        {
+            Debug.Log($"Complete level with score {result}");
+        }
     }
 
     private new void Awake()

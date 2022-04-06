@@ -393,7 +393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_DontDestroyOnLoad: 0
-  m_ReferenceTime: 0
+  m_ReferenceTime: 6
   EventLevelCompleted:
     m_PersistentCalls:
       m_Calls: []
@@ -1737,7 +1737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb44008248e6ec346a0c996423eb8264, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TimeLimit: 20
+  m_TimeLimit: 17
 --- !u!4 &1744684405 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4612639042936488896, guid: 3965951d6d2a2aa4986a78b3d3422bf3, type: 3}
@@ -2411,7 +2411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7514101354880797519, guid: 7049106815a4181438a340250c87abe3, type: 3}
       propertyPath: m_NumLives
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7049106815a4181438a340250c87abe3, type: 3}

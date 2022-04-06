@@ -20,39 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186cce6c-f2c7-46df-9d34-12b04af63ec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/карта.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/карта.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Episodes/Level_03_Episode.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Episodes/Level_03_Episode.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level_03.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level_03.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Knight/Helmet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Knight/Helmet.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Utility/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelMap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelMap.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_02.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_02.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/ResultPanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/ResultPanelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +60,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/AIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StandUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerAsset.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AcidCloud.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
@@ -93,18 +71,21 @@
         <option value="$PROJECT_DIR$/Assets/TD_LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Time_LevelCondition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelSequenceController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/MapLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/MapCompletion.cs" />
         <option value="$PROJECT_DIR$/Assets/LevelDisplayController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/ResultPanelController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.animation@7.0.4/Editor/SpriteOutlineRenderer/SpriteOutlineRenderer.cs" />
       </list>
     </option>
   </component>
@@ -168,7 +149,7 @@
       <workItem from="1649147851600" duration="5606000" />
       <workItem from="1649180034652" duration="6647000" />
       <workItem from="1649188963122" duration="334000" />
-      <workItem from="1649226049952" duration="1350000" />
+      <workItem from="1649226049952" duration="5080000" />
     </task>
     <servers />
   </component>

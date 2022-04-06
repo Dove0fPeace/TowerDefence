@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class TD_LevelController : LevelController
 {
-    public int LevelScore => 1;
+    private int LevelScore = 3;
     private new void Start()
     {
         base.Start();
@@ -15,11 +15,25 @@ public class TD_LevelController : LevelController
             ResultPanelController.Instance.ShowResults(null,false);
         };
 
+        m_ReferenceTime += Time.time;
+        
         EventLevelCompleted.AddListener(() =>
         {
             StopLevelActivity();
+            if (m_ReferenceTime <= Time.time)
+            {
+                LevelScore -= 1;
+            }
             MapCompletion.SaveEpisodeResult(LevelScore);
         });
+
+        void LifeScoreChange(int _)
+        {
+            LevelScore -= 1;
+            TD_Player.OnLifeUpdate -= LifeScoreChange;
+        }
+
+        TD_Player.OnLifeUpdate += LifeScoreChange;
     }
 
     private void StopLevelActivity()
