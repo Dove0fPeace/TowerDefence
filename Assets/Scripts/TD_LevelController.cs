@@ -15,7 +15,7 @@ public class TD_LevelController : LevelController
             ResultPanelController.Instance.ShowResults(null,false);
         };
 
-        m_EventLevelCompleted.AddListener(() =>
+        EventLevelCompleted.AddListener(() =>
         {
             StopLevelActivity();
             MapCompletion.SaveEpisodeResult(LevelScore);

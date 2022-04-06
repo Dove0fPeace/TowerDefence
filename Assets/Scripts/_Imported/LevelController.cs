@@ -13,7 +13,7 @@ namespace _Imported
         [SerializeField] private int m_ReferenceTime;
         public int ReferenceTime => m_ReferenceTime;
 
-        [SerializeField] protected UnityEvent m_EventLevelCompleted;
+        public UnityEvent EventLevelCompleted;
 
         private ILevelCondition[] m_Conditions;
 
@@ -61,7 +61,8 @@ namespace _Imported
             {
                 m_IsLevelCompleted = true;
                 SetScoreMultiplier(m_LevelTime);
-                m_EventLevelCompleted?.Invoke();
+                EventLevelCompleted?.Invoke();
+                print("Level conditions complete");
 
                 LevelSequenceController.Instance.FinishCurrentLevel(m_IsLevelCompleted);
             }

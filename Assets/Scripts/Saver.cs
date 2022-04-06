@@ -10,14 +10,9 @@ using UnityEngine;
         
         if (File.Exists(path))
         {
-            Debug.Log($"Loading from {path}");
             var dataString = File.ReadAllText(path);
             var saver = JsonUtility.FromJson<Saver<T>>(dataString);
             data = saver.data;
-        }
-        else
-        {
-            Debug.Log($"No file at {path}");
         }
     }
 

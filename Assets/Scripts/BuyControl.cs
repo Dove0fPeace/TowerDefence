@@ -31,4 +31,9 @@ public class BuyControl : MonoBehaviour
             tbc.SetBuildSite(buildSite);
         }
     }
+
+    private void OnDestroy()
+    {
+        BuildSite.OnClickEvent -= MoveToBuildSite;
+    }
 }

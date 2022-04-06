@@ -9,6 +9,11 @@ namespace _Imported
         [SerializeField] private TMP_Text m_Kills;
         [SerializeField] private TMP_Text m_Score;
         [SerializeField] private TMP_Text m_Time;
+
+        [SerializeField] private TMP_FontAsset m_WinFont;
+        [SerializeField] private TMP_FontAsset m_LoseFont;
+
+        [SerializeField] private Color m_LoseFontColor;
         
         [SerializeField] private TMP_Text m_Result;
 
@@ -27,6 +32,8 @@ namespace _Imported
 
             m_Success = success;
 
+            m_Result.font = success ? m_WinFont : m_LoseFont;
+            m_Result.color = success ? Color.white : m_LoseFontColor;
             m_Result.text = success ? "Win" : "Lose";
             //m_ButtonNextText.text = success ? "Next" : "Restart";
             /*

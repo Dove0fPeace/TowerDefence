@@ -394,7 +394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DontDestroyOnLoad: 0
   m_ReferenceTime: 0
-  m_EventLevelCompleted:
+  EventLevelCompleted:
     m_PersistentCalls:
       m_Calls: []
   m_GoldTime: 0
@@ -1737,7 +1737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb44008248e6ec346a0c996423eb8264, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TimeLimit: 4
+  m_TimeLimit: 20
 --- !u!4 &1744684405 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4612639042936488896, guid: 3965951d6d2a2aa4986a78b3d3422bf3, type: 3}
@@ -2179,6 +2179,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1836687011, guid: 9df210b551ec3c54fb699bd4127ed95e, type: 3}
+      propertyPath: m_LevelConditions.Array.data[0]
+      value: 
+      objectReference: {fileID: 1650173140}
     - target: {fileID: 5704640522228015050, guid: 9df210b551ec3c54fb699bd4127ed95e, type: 3}
       propertyPath: m_BuildSite
       value: 
@@ -2418,6 +2422,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 797877938, guid: 39de6dbacdf6fbb4989008da830a5073, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 7642924661186910340, guid: 39de6dbacdf6fbb4989008da830a5073, type: 3}
       propertyPath: m_Name
       value: BuildSite

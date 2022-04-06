@@ -20,96 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186cce6c-f2c7-46df-9d34-12b04af63ec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/главная сборка.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/главная сборка.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/главная фон.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/главная фон.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/кнопка.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/кнопка.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus-Bold SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus-Bold SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus-Bold.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus-Regular SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus-Regular SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus-Regular.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus8-Bold SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus8-Bold SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus8-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus8-Bold.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus8-Regular SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus8-Regular SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus8-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlus8-Regular.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlusSC-Bold SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlusSC-Bold SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlusSC-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlusSC-Bold.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlusSC-Regular SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlusSC-Regular SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlusSC-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/8bitOperatorPlusSC-Regular.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/BleedingPixels SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/BleedingPixels SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/BleedingPixels.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/BleedingPixels.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/advanced_pixel-7 SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/advanced_pixel-7 SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/advanced_pixel-7.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/advanced_pixel-7.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/computer_pixel-7 SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/computer_pixel-7 SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/computer_pixel-7.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/computer_pixel-7.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/cyrillic_pixel-7 SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/cyrillic_pixel-7 SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/cyrillic_pixel-7.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/cyrillic_pixel-7.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/double_pixel-7 SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/double_pixel-7 SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/double_pixel-7.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/double_pixel-7.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainMenu.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelDisplayController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelDisplayController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Saver.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_Android.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_WSAPlayer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_iOS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/карта.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/карта.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Episodes/Level_03_Episode.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Episodes/Level_03_Episode.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level_03.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Level_03.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelDisplayController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelDisplayController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MapCompletion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MapCompletion.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MapLevel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MapLevel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Utility/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/HUD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelMap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelMap.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_02.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_02.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/ResultPanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/ResultPanelController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Time_LevelCondition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Time_LevelCondition.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +65,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildSite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NullBuildSite.cs" root0="FORCE_HIGHLIGHTING" />
@@ -136,7 +77,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/NullBuildSite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BuildSite.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpaceShip.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/AIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" />
@@ -151,8 +91,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Turret.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/TD_LevelController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/ResultPanelController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Time_LevelCondition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelSequenceController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" />
@@ -160,8 +98,13 @@
         <option value="$PROJECT_DIR$/Assets/MapCompletion.cs" />
         <option value="$PROJECT_DIR$/Assets/LevelDisplayController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Saver.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Saver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/ResultPanelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" />
       </list>
     </option>
   </component>
@@ -182,6 +125,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build\TowerDefence.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Games\UnityProject\AndroidProjects\TowerDefence\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -215,6 +166,9 @@
       <workItem from="1648894280880" duration="2948000" />
       <workItem from="1649054971433" duration="8414000" />
       <workItem from="1649147851600" duration="5606000" />
+      <workItem from="1649180034652" duration="6647000" />
+      <workItem from="1649188963122" duration="334000" />
+      <workItem from="1649226049952" duration="1350000" />
     </task>
     <servers />
   </component>
