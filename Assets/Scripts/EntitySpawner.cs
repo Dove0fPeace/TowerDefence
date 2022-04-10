@@ -66,6 +66,7 @@ public class EntitySpawner : MonoBehaviour
             }
             if(e.TryGetComponent<Enemy>(out var enemy))
             {
+                // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
                 enemy.Use(m_EnemySettings[Random.Range(0, m_EnemySettings.Length)]);
             }
         }

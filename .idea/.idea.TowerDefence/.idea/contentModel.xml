@@ -5,6 +5,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.Player.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BranchLevel.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="_Imported" t="Include">
             <e p="AIController.cs" t="Include" />
@@ -25,15 +26,19 @@
             <e p="Waypoint.cs" t="Include" />
           </e>
           <e p="AcidCloud.cs" t="Include" />
+          <e p="AllWavesDead_LevelCondition.cs" t="Include" />
           <e p="BuildSite.cs" t="Include" />
           <e p="BuyControl.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="EnemyAsset.cs" t="Include" />
+          <e p="EnemyWave.cs" t="Include" />
+          <e p="EnemyWavesManager.cs" t="Include" />
           <e p="EntitySpawner.cs" t="Include" />
           <e p="LevelDisplayController.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="MapCompletion.cs" t="Include" />
           <e p="MapLevel.cs" t="Include" />
+          <e p="NextWaveGUI.cs" t="Include" />
           <e p="NullBuildSite.cs" t="Include" />
           <e p="Path.cs" t="Include" />
           <e p="Player.cs" t="Include" />

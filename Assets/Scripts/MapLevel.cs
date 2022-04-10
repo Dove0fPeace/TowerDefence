@@ -8,6 +8,9 @@ public class MapLevel : MonoBehaviour
 
     [SerializeField] private Image[] m_ResultImage;
     private Episode m_Episode;
+
+    public bool IsComplete => gameObject.activeSelf && m_ResultPanel.gameObject.activeSelf;
+
     public void LoadLevel()
     {
         LevelSequenceController.Instance.StartEpisode(m_Episode);

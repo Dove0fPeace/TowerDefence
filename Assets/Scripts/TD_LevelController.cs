@@ -50,5 +50,6 @@ public class TD_LevelController : LevelController
         DisableAll<Tower>();
         DisableAll<TD_PatrolController>();
         DisableAll<Projectile>();
+        DisableAll<NextWaveGUI>();
     }
 }

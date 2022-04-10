@@ -13,6 +13,9 @@ public class MapCompletion : SingletonBase<MapCompletion>
     public const string filename = "completion.dat";
     
     [SerializeField] private EpisodeScore[] completionData;
+
+    [SerializeField] private int m_TotalScore;
+    public int TotalScore => m_TotalScore;
     
     public static void SaveEpisodeResult(int result)
     {
@@ -28,6 +31,10 @@ public class MapCompletion : SingletonBase<MapCompletion>
     {
         base.Awake();
         Saver<EpisodeScore[]>.TryLoad(filename, ref completionData);
+        foreach (var episodeScore in completionData)
+        {
+            m_TotalScore += episodeScore.Score;
+        }
     }
 
     public bool TryIndex(int id, out Episode episode, out int score)

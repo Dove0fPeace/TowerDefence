@@ -9,7 +9,7 @@ public class Time_LevelCondition : MonoBehaviour, ILevelCondition
     [SerializeField] private float m_TimeLimit = 4.0f;
     private bool levelComplete;
 
-    private bool reached;
+    private bool isCompleted;
 
     private void Start()
     {
@@ -26,10 +26,10 @@ public class Time_LevelCondition : MonoBehaviour, ILevelCondition
         {
             if (Time.time > m_TimeLimit && levelComplete == false)
             {
-                reached = true;
+                isCompleted = true;
             }
 
-            return reached;
+            return isCompleted;
         }
         
     }

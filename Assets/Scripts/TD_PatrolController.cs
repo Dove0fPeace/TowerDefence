@@ -17,6 +17,8 @@ public class TD_PatrolController : Destructible
     private Vector3 _movePosition;
     public Vector3 MovePosition => _movePosition;
 
+    public event Action OnEnd;
+
     protected override void Start()
     {
         base.Start();
@@ -26,6 +28,12 @@ public class TD_PatrolController : Destructible
     private void FixedUpdate()
     {
         transform.Translate(_movePosition * (Time.deltaTime * m_Speed), Space.World);
+    }
+
+    protected override void OnDestroy()
+    {
+        OnEnd?.Invoke();
+        base.OnDestroy();
     }
 
     public void SetPath(Path newPath)
@@ -44,7 +52,7 @@ public class TD_PatrolController : Destructible
         }
         else
         {
-            OnEndPath.Invoke();
+            OnEndPath.Invoke(); ;
             Destroy(gameObject);    
         }
     }

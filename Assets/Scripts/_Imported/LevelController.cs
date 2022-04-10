@@ -62,7 +62,6 @@ namespace _Imported
                 m_IsLevelCompleted = true;
                 SetScoreMultiplier(m_LevelTime);
                 EventLevelCompleted?.Invoke();
-                print("Level conditions complete");
 
                 LevelSequenceController.Instance?.FinishCurrentLevel(m_IsLevelCompleted);
             }

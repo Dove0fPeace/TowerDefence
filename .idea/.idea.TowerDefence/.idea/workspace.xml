@@ -20,18 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186cce6c-f2c7-46df-9d34-12b04af63ec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Knight/Helmet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Knight/Helmet.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BranchLevel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BranchLevel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BranchLevel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AllWavesDead_LevelCondition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AllWavesDead_LevelCondition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyWave.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyWave.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyWavesManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyWavesManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NextWaveGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NextWaveGUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Utility/EnemyCamp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/EnemyCamp.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelMap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelMap.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EntitySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EntitySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelDisplayController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelDisplayController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Path.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Path.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildSite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BranchLevel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NullBuildSite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AcidCloud.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -58,12 +75,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpaceShip.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/AIController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StandUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TowerAsset.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AcidCloud.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EntitySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Turret.cs" />
@@ -78,14 +93,26 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Saver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/ResultPanelController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.2d.animation@7.0.4/Editor/SpriteOutlineRenderer/SpriteOutlineRenderer.cs" />
+        <option value="$PROJECT_DIR$/Assets/EnemyWaves.cs" />
+        <option value="$PROJECT_DIR$/Assets/EnemyWavesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EntitySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Path.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CallNextWave.cs" />
+        <option value="$PROJECT_DIR$/Assets/NextWaveGUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyWave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyWavesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/AllWavesDead_LevelCondition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelDisplayController.cs" />
+        <option value="$PROJECT_DIR$/Assets/BranchLevel.cs" />
       </list>
     </option>
   </component>
@@ -150,6 +177,11 @@
       <workItem from="1649180034652" duration="6647000" />
       <workItem from="1649188963122" duration="334000" />
       <workItem from="1649226049952" duration="5080000" />
+      <workItem from="1649407311095" duration="3161000" />
+      <workItem from="1649517206492" duration="8354000" />
+      <workItem from="1649587656750" duration="4834000" />
+      <workItem from="1649606991578" duration="51000" />
+      <workItem from="1649607169217" duration="3367000" />
     </task>
     <servers />
   </component>
@@ -175,6 +207,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="708" y="341" key="#Notifications" timestamp="1649607016162">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="708" y="341" key="#Notifications/0.0.1920.1032@0.0.1920.1032" timestamp="1649607016162" />
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1649607022438">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1649607022438" />
     <state x="670" y="194" key="RiderGenerateDialog" timestamp="1648293474980">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

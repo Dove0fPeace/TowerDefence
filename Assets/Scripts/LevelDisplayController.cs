@@ -6,6 +6,7 @@ using UnityEngine;
 public class LevelDisplayController : MonoBehaviour
 {
     [SerializeField] private MapLevel[] m_MapLevels;
+    [SerializeField] private BranchLevel[] m_BranchLevels;
     private void Start()
     {
         var drawLevel = 0;
@@ -21,6 +22,11 @@ public class LevelDisplayController : MonoBehaviour
         for (int i = drawLevel; i < m_MapLevels.Length; i++)
         {
             m_MapLevels[i].gameObject.SetActive(false);
+        }
+
+        for (int i = 0; i < m_BranchLevels.Length; i++)
+        {
+            m_BranchLevels[i].TryActivate();
         }
     }
 }

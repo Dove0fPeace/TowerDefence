@@ -3,6 +3,12 @@ using UnityEngine;
 
 public class Path : MonoBehaviour
 {
+    [SerializeField] private CircleArea m_StartArea;
+    public CircleArea StartArea
+    {
+        get { return m_StartArea; }
+    }
+    
     [SerializeField] private Waypoint[] m_Waypoints;
 
     public int Lenght { get => m_Waypoints.Length; }
