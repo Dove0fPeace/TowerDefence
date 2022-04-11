@@ -19,6 +19,7 @@ public class BranchLevel : MonoBehaviour
         else
         {
             m_PointText.transform.parent.gameObject.SetActive(false);
+            GetComponent<MapLevel>().Initialise();
         }
     }
 }

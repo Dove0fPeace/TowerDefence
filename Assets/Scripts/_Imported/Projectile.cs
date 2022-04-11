@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace _Imported
@@ -12,6 +13,12 @@ namespace _Imported
 
         [SerializeField] private ImpactEffect m_ImpactEffectPrefab;
 
+        [SerializeField] private UpgradeAsset m_ProjectileUpgrade;
+
+        private float speedBonus;
+        private int damageBonus;
+        [SerializeField] private int m_DamageBonus;
+
         //При создании проджектайла ему передается булевое значение выпущен ли этот проджектайл игроком.
         //Если да, то очки засчитаются даже если в полете корабль игрока уничтожат, потому что это значение передается при создании проджектайла, а не идет проверка при столкновении.
         public bool IsPlayerProjectile;
@@ -22,6 +29,17 @@ namespace _Imported
 
 
         protected float m_Timer;
+
+        private void Start()
+        {
+            var upgradeLevel = Upgrades.GetUpgradeLevel(m_ProjectileUpgrade);
+            
+            speedBonus = ((float)upgradeLevel * 10) / 100;
+            damageBonus = upgradeLevel * m_DamageBonus;
+
+            m_Damage += damageBonus;
+
+        }
 
         protected virtual void FixedUpdate()
         {
@@ -35,7 +53,7 @@ namespace _Imported
                 return;
             }
             
-            float stepLenght = Time.deltaTime * m_Velocity;
+            float stepLenght = Time.deltaTime * (m_Velocity + (m_Velocity * speedBonus));
             transform.up = (_target.ReturnTarget().position - transform.position).normalized;
             Vector2 step = transform.up * stepLenght;
             

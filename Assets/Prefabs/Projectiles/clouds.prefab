@@ -1727,6 +1727,7 @@ MonoBehaviour:
   m_Lifetime: 1000
   m_Damage: 0
   m_ImpactEffectPrefab: {fileID: 0}
+  m_ProjectileUpgrade: {fileID: 11400000, guid: fcb9495b993238849985119284802a9a, type: 2}
   IsPlayerProjectile: 0
   Static: 0
   Layer: 0

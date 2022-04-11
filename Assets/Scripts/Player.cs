@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Player : SingletonBase<Player>
 {
-    [SerializeField] private int m_NumLives;
+    [SerializeField] protected int m_NumLives;
     public int NumLives => m_NumLives;
     public event Action OnPlayerDead;
     [Space(3)]

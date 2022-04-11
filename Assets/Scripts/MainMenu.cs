@@ -27,6 +27,7 @@ public class MainMenu : MonoBehaviour
     public void NewGame()
     {
         FileHandler.Reset(MapCompletion.filename);
+        FileHandler.Reset(Upgrades.filename);
         SceneManager.LoadScene(1);
     }
 

@@ -20,33 +20,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186cce6c-f2c7-46df-9d34-12b04af63ec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/BranchLevel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BranchLevel.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BranchLevel.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AllWavesDead_LevelCondition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AllWavesDead_LevelCondition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyWave.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyWave.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyWavesManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyWavesManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NextWaveGUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NextWaveGUI.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/MoneyBonus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/MoneyBonus.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BuyUpgrade.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BuyUpgrade.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Episodes/BranchLevel_01.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Episodes/BranchLevel_01.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Episodes/BranchLevel_02.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Episodes/BranchLevel_02.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/HealthUpgrade.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/HealthUpgrade.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/ProjectileUpgrade.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/ProjectileUpgrade.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/StartGoldUpgrade.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/StartGoldUpgrade.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Upgrade.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Upgrade.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BranchLevel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BranchLevel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UpgradeAsset.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UpgradeAsset.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UpgradeShop.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UpgradeShop.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Upgrades.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/contentModel.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Utility/EnemyCamp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/EnemyCamp.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BranchLevel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BranchLevel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Arrow_LVL1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Arrow_LVL1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Magic_LVL_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Magic_LVL_1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/clouds.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/clouds.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Utility/PlayerCamp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/PlayerCamp.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelMap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelMap.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EntitySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EntitySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_02.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_02.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_03.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_03.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelDisplayController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelDisplayController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Path.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Path.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Time_LevelCondition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/LevelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextUpdate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextUpdate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/Projectile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,12 +79,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UpgradeShop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Upgrades.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BuyUpgrade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildSite.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BranchLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradeAsset.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NullBuildSite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Saver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AcidCloud.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -109,12 +133,21 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyWavesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/AllWavesDead_LevelCondition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelDisplayController.cs" />
         <option value="$PROJECT_DIR$/Assets/BranchLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BranchLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelDisplayController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BonusAsset.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UpgradeAsset.cs" />
+        <option value="$PROJECT_DIR$/Assets/UpgradeShop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Upgrades.cs" />
+        <option value="$PROJECT_DIR$/Assets/BuyUpgrade.cs" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26ukREdX1GespVjBt7QrkTmnNsr" />
   <component name="ProjectLevelVcsManager">
@@ -129,6 +162,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -145,8 +179,9 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -154,8 +189,9 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -181,13 +217,16 @@
       <workItem from="1649517206492" duration="8354000" />
       <workItem from="1649587656750" duration="4834000" />
       <workItem from="1649606991578" duration="51000" />
-      <workItem from="1649607169217" duration="3367000" />
+      <workItem from="1649607169217" duration="3966000" />
+      <workItem from="1649680738550" duration="7764000" />
+      <workItem from="1649695071521" duration="12775000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,17 +239,16 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="708" y="341" key="#Notifications" timestamp="1649607016162">
+    <state x="708" y="341" key="#Notifications" timestamp="1649694006526">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="708" y="341" key="#Notifications/0.0.1920.1032@0.0.1920.1032" timestamp="1649607016162" />
+    <state x="708" y="341" key="#Notifications/0.0.1920.1032@0.0.1920.1032" timestamp="1649694006526" />
     <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1649607022438">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -223,5 +261,9 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="856" y="135" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1648296759568" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1649692712641">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1649692712641" />
   </component>
 </project>

@@ -1047,6 +1047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55e5c1d20d04286408f03671d26e998e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_StartArea: {fileID: 0}
   m_Waypoints:
   - {fileID: 668719363}
   - {fileID: 2134385854}
@@ -1183,6 +1184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55e5c1d20d04286408f03671d26e998e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_StartArea: {fileID: 0}
   m_Waypoints:
   - {fileID: 1594689362}
   - {fileID: 1045937353}
@@ -1538,7 +1540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DontDestroyOnLoad: 0
   m_ReferenceTime: 0
-  m_EventLevelCompleted:
+  EventLevelCompleted:
     m_PersistentCalls:
       m_Calls: []
   m_GoldTime: 0
@@ -2691,6 +2693,10 @@ PrefabInstance:
     - target: {fileID: 7514101354880797519, guid: 7049106815a4181438a340250c87abe3, type: 3}
       propertyPath: m_Gold
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 7514101354880797519, guid: 7049106815a4181438a340250c87abe3, type: 3}
+      propertyPath: m_NumLives
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7049106815a4181438a340250c87abe3, type: 3}

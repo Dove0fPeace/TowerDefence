@@ -35,4 +35,9 @@ public partial class TowerBuyControl : MonoBehaviour
         TD_Player.Instance.TryBuild(m_TowerAsset, m_BuildSite);
         BuildSite.HideControls();
     }
+
+    private void OnDestroy()
+    {
+        TD_Player.GOldUpdate_Unsubscribe(GoldStatusCheck);
+    }
 }

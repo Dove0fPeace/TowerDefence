@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -28,5 +29,10 @@ public class TextUpdate : MonoBehaviour
     private void UpdateText(int value)
     {
         _moneyText.text = value.ToString();
+    }
+
+    private void OnDestroy()
+    {
+        TD_Player.GOldUpdate_Unsubscribe(UpdateText);
     }
 }

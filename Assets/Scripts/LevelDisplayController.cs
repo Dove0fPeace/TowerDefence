@@ -10,18 +10,17 @@ public class LevelDisplayController : MonoBehaviour
     private void Start()
     {
         var drawLevel = 0;
-        var score = 1;
-
-        while (score != 0 && drawLevel < m_MapLevels.Length &&
-               MapCompletion.Instance.TryIndex(drawLevel, out var episode,out score))
+        //MapCompletion.Instance.GetEpisodeScore(m_MapLevels[drawLevel].Episode) != 0 && 
+        while (drawLevel < m_MapLevels.Length)
         {
-            m_MapLevels[drawLevel].SetLevelData(episode,score);
+            m_MapLevels[drawLevel].Initialise();
             drawLevel += 1;
         }
         
         for (int i = drawLevel; i < m_MapLevels.Length; i++)
         {
             m_MapLevels[i].gameObject.SetActive(false);
+            print(m_MapLevels[i].name);
         }
 
         for (int i = 0; i < m_BranchLevels.Length; i++)

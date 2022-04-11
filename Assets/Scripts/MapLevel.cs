@@ -7,7 +7,8 @@ public class MapLevel : MonoBehaviour
     [SerializeField] private RectTransform m_ResultPanel;
 
     [SerializeField] private Image[] m_ResultImage;
-    private Episode m_Episode;
+    [SerializeField] private Episode m_Episode;
+    public Episode Episode => m_Episode;
 
     public bool IsComplete => gameObject.activeSelf && m_ResultPanel.gameObject.activeSelf;
 
@@ -16,9 +17,9 @@ public class MapLevel : MonoBehaviour
         LevelSequenceController.Instance.StartEpisode(m_Episode);
     }
 
-    public void SetLevelData(Episode episode, int score)
+    public void Initialise()
     {
-        m_Episode = episode;
+        var score = MapCompletion.Instance.GetEpisodeScore(m_Episode);
         m_ResultPanel.gameObject.SetActive(score > 0);
 
         for (int i = 0; i < score; i++)

@@ -17,6 +17,11 @@ public class TD_Player : Player
         OnGoldUpdate += act;
         act(Instance.CurrentGold);
     }
+
+    public static void GOldUpdate_Unsubscribe(Action<int> act)
+    {
+        OnGoldUpdate -= act;
+    }
     public static event Action<int> OnLifeUpdate;
     public static void HealthUpdateSubscribe(Action<int> act)
     {
@@ -30,6 +35,17 @@ public class TD_Player : Player
     public int CurrentGold => m_Gold;
 
     [SerializeField] private Tower m_TowerPrefab;
+
+    [Space(2)] 
+    [SerializeField] private UpgradeAsset m_HealthUpgrade;
+
+    [SerializeField] private UpgradeAsset m_GoldUpgrade;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        ConfirmUpgrades();
+    }
 
     public void ChangeGold(int gold)
     {
@@ -52,4 +68,11 @@ public class TD_Player : Player
         tower.SetType(towerAsset.Type);
         Destroy(buildSite.gameObject);
     }
+
+    private void ConfirmUpgrades()
+    {
+        m_NumLives += Upgrades.GetUpgradeLevel(m_HealthUpgrade) * 5;
+        m_Gold += Upgrades.GetUpgradeLevel(m_GoldUpgrade) * 10;
+    }
+    
 }
