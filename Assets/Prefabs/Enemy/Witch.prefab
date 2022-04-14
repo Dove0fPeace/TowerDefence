@@ -92,6 +92,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  m_ArmorType: 1
+  m_Armor: 2
   OnEndPath:
     m_PersistentCalls:
       m_Calls:

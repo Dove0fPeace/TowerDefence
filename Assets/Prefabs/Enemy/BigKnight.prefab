@@ -75,7 +75,7 @@ MonoBehaviour:
   m_ScoreValue: 0
   m_PredictionMultiply: 0.5
   m_Indestructible: 0
-  m_HitPoints: 20
+  m_HitPoints: 8
   m_EventOnDeath:
     m_PersistentCalls:
       m_Calls:
@@ -91,6 +91,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  m_ArmorType: 0
+  m_Armor: 10
   OnEndPath:
     m_PersistentCalls:
       m_Calls:

@@ -3,6 +3,12 @@ using UnityEngine;
 
 namespace _Imported
 {
+    public enum DamageType
+    {
+        Physic,
+        Magic
+    }
+    
     public class Projectile : Entity
     {
         [SerializeField] protected float m_Velocity;
@@ -14,6 +20,8 @@ namespace _Imported
         [SerializeField] private ImpactEffect m_ImpactEffectPrefab;
 
         [SerializeField] private UpgradeAsset m_ProjectileUpgrade;
+
+        [SerializeField] private DamageType m_DamageType;
 
         private float speedBonus;
         private int damageBonus;
@@ -76,10 +84,10 @@ namespace _Imported
         {
             if (collision.transform.root.GetComponent<Enemy>().Type == Layer)
             {
-                Destructible dest = collision.transform.root.GetComponent<Destructible>();
+                TD_PatrolController dest = collision.transform.root.GetComponent<TD_PatrolController>();
                 if (dest != null)
                 {
-                    dest.ApplyDamage(m_Damage, IsPlayerProjectile);
+                    dest.ApplyDamage(m_Damage, IsPlayerProjectile, m_DamageType);
                     /*
                     if (IsPlayerProjectile && dest.TeamID != Destructible.TeamIDNeutral)
                     {
@@ -95,5 +103,6 @@ namespace _Imported
         {
             _target = target;
         }
+
     }
 }

@@ -10,10 +10,11 @@ public class LevelDisplayController : MonoBehaviour
     private void Start()
     {
         var drawLevel = 0;
+        var score = 1;
         //MapCompletion.Instance.GetEpisodeScore(m_MapLevels[drawLevel].Episode) != 0 && 
-        while (drawLevel < m_MapLevels.Length)
+        while (score != 0 && drawLevel < m_MapLevels.Length)
         {
-            m_MapLevels[drawLevel].Initialise();
+            score = m_MapLevels[drawLevel].Initialise();
             drawLevel += 1;
         }
         

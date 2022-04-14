@@ -3,8 +3,16 @@ using _Imported;
 using UnityEngine;
 using UnityEngine.Events;
 
+public enum ArmorType
+{
+    Physic = 0,
+    Magic = 1
+}
 public class TD_PatrolController : Destructible
 {
+    [SerializeField] private ArmorType m_ArmorType;
+    [SerializeField] private int m_Armor;
+    
     private Path m_Path;
     private int m_PathIndex;
     [SerializeField] private UnityEvent OnEndPath;
@@ -76,4 +84,42 @@ public class TD_PatrolController : Destructible
         m_Waypoint = point;
         _movePosition = (m_Waypoint.transform.position - transform.position).normalized;
     }
+
+    public virtual void ApplyDamage(int damage, bool playersProjectile, DamageType type)
+    {
+        print($"Base damage {damage}");
+        /*
+        switch (type)
+        {
+            case DamageType.Magic:
+                damage = Mathf.Max(1, damage - m_MagicArmor);
+                break;
+            case DamageType.Physic:
+                damage = Mathf.Max(1, damage - m_PhysicArmor);
+                break;
+        }
+        */
+        damage = ArmorDamageFunction[(int)m_ArmorType](damage, type, m_Armor);
+        print($"Damage after reduce {damage}");
+        base.ApplyDamage(damage, playersProjectile);
+    }
+
+    private static Func<int, DamageType, int, int>[] ArmorDamageFunction =
+    {
+        (int power, DamageType damageType, int armor) =>
+        {//ArmorType = Physic
+            switch (damageType)
+            {
+                case DamageType.Magic: return power;
+                default: return Mathf.Max(power - armor, 1);
+            }
+        },
+        (int power, DamageType damageType, int armor) =>
+        {//ArmorType = Magic
+            if (damageType == DamageType.Physic)
+                armor = armor / 2;
+            
+            return Mathf.Max(power - armor, 1);
+        }
+    };
 }
