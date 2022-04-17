@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 529627352cf24950939f598a6db2338d, type: 3}
-  m_Name: Mage_Tower
+  m_Name: Physic_LVL1
   m_EditorClassIdentifier: 
-  Type: 2
-  GoldCost: 150
-  GUISprite: {fileID: 21300000, guid: 1ff55c4a74fcf9b429b49b787ead3395, type: 3}
-  TowerSprite: {fileID: 21300000, guid: 298636722737c4b41816506cd4bc994f, type: 3}
-  TurretProperties: {fileID: 11400000, guid: bf997dbba7e8bbc4998e6c522e1af273, type: 2}
+  Type: 1
+  GoldCost: 15
+  GUISprite: {fileID: 21300000, guid: ef25b92a8e4b2644b8420de820e6c11f, type: 3}
+  TowerSprite: {fileID: 21300000, guid: 0d1dc428e29b59d4da665429794be749, type: 3}
+  TurretProperties: {fileID: 11400000, guid: 15a35afeee6f4ca419e44fec307e9d52, type: 2}
+  UpgradeTo: []

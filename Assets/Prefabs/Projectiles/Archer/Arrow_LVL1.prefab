@@ -78,7 +78,7 @@ MonoBehaviour:
   m_DamageBonus: 1
   IsPlayerProjectile: 0
   Static: 0
-  Layer: 0
+  Layer: 1
 --- !u!1 &2543431707001435906
 GameObject:
   m_ObjectHideFlags: 0

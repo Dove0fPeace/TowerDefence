@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using _Imported;
 using UnityEngine;
 using UnityEngine.Events;
@@ -25,12 +26,14 @@ public class TD_PatrolController : Destructible
     private Vector3 _movePosition;
     public Vector3 MovePosition => _movePosition;
 
+    private bool slowed;
+
     public event Action OnEnd;
 
-    protected override void Start()
+    private void Awake()
     {
-        base.Start();
         _basicSpeed = m_Speed;
+        print($"Set basic speed {name}");
     }
 
     private void FixedUpdate()
@@ -67,9 +70,12 @@ public class TD_PatrolController : Destructible
 
     public void SetSlowed(bool slow, float slowPower)
     {
-        if (slow == true)
+        if (slow)
         {
+            if(slowed) return;
             m_Speed -= slowPower;
+            print($"Set slowed {name}");
+            slowed = true;
             if (m_Speed < m_MinimumSpeed)
                 m_Speed = m_MinimumSpeed;
         }
@@ -77,6 +83,7 @@ public class TD_PatrolController : Destructible
         else
         {
             m_Speed = _basicSpeed;
+            slowed = false;
         }
     }
     public void SetWaypoint(Waypoint point)
@@ -87,7 +94,6 @@ public class TD_PatrolController : Destructible
 
     public virtual void ApplyDamage(int damage, bool playersProjectile, DamageType type)
     {
-        print($"Base damage {damage}");
         /*
         switch (type)
         {
@@ -99,11 +105,11 @@ public class TD_PatrolController : Destructible
                 break;
         }
         */
-        damage = ArmorDamageFunction[(int)m_ArmorType](damage, type, m_Armor);
-        print($"Damage after reduce {damage}");
+        damage = ArmorDamageFunction(damage, type);
         base.ApplyDamage(damage, playersProjectile);
     }
 
+    /*
     private static Func<int, DamageType, int, int>[] ArmorDamageFunction =
     {
         (int power, DamageType damageType, int armor) =>
@@ -122,4 +128,37 @@ public class TD_PatrolController : Destructible
             return Mathf.Max(power - armor, 1);
         }
     };
+    */
+
+    private int ArmorDamageFunction(int damage, DamageType type)
+    {
+        var armor = m_Armor;
+        switch (m_ArmorType)
+        {
+            case ArmorType.Physic:
+            {
+                switch (type)
+                {
+                    case DamageType.Magic:
+                    {
+                        return damage;
+                    }
+                    case DamageType.Physic:
+                    {
+                        return Mathf.Max(damage - m_Armor, 1);
+                    }
+                }
+                break;
+            }
+            
+            case ArmorType.Magic:
+            {
+                if (type == DamageType.Physic)
+                    armor = armor / 2;
+                return Mathf.Max(1, damage - armor);
+            }
+                
+        }
+        return damage;
+    }
 }

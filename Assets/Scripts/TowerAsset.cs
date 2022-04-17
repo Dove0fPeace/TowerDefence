@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.Serialization;
 
 public enum TargetLayer
 {
@@ -16,4 +15,5 @@ public class TowerAsset : ScriptableObject
         public Sprite GUISprite;
         public Sprite TowerSprite;
         public TurretProperties TurretProperties;
-    }
+        public TowerAsset[] UpgradeTo;
+}

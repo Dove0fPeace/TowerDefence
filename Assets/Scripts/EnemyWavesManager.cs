@@ -1,4 +1,5 @@
 using System;
+using _Imported;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -10,6 +11,7 @@ public class EnemyWavesManager : MonoBehaviour
     private int _activeEnemyCount = 0;
 
     public event Action OnAllWavesDead;
+    public static event Action<Destructible> OnEnemySpawn; 
 
     private void Start()
     {
@@ -38,6 +40,7 @@ public class EnemyWavesManager : MonoBehaviour
                     enemy.SetPath(m_Paths[pathIndex]);
                     enemy.OnEnd += RecordEnemyDead;
                     _activeEnemyCount += 1;
+                    OnEnemySpawn?.Invoke(enemy);
                 }
             }
         }

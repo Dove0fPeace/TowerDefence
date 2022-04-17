@@ -36,6 +36,7 @@ public class Upgrades : SingletonBase<Upgrades>
 
     public static int GetUpgradeLevel(UpgradeAsset asset)
     {
+        print("Get upgrade level");
         foreach (var upgrade in Instance._saves)
         {
             if (upgrade.Asset == asset)

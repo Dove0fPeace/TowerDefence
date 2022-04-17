@@ -82,9 +82,10 @@ namespace _Imported
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            if (collision.transform.root.GetComponent<Enemy>().Type == Layer)
+            if (collision.transform.root.GetComponent<Enemy>().Type == Layer || Layer == TargetLayer.Both)
             {
                 TD_PatrolController dest = collision.transform.root.GetComponent<TD_PatrolController>();
+                print(dest.name);
                 if (dest != null)
                 {
                     dest.ApplyDamage(m_Damage, IsPlayerProjectile, m_DamageType);

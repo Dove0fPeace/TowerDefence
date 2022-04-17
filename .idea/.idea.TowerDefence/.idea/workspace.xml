@@ -20,30 +20,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186cce6c-f2c7-46df-9d34-12b04af63ec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BuyUpgrade.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BuyUpgrade.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UpgradeShop.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UpgradeShop.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Upgrades.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Upgrades.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Abilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Abilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/FireArcherTower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/FireArcherTower.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Archer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Archer/Arrow_LVL1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Archer/Arrow_LVL1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Archer/Arrow_LVL2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Archer/Arrow_LVL2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Archer/Arrow_LVL3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Archer/Arrow_LVL3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Archer/ArrrowFire_1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Archer/ArrrowFire_1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/Archer_Tower.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/Archer_Tower.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/FireWay.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/FireWay/FireTower_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/FireWay/FireTower_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/PhysicWay.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/PhysicWay/Physic_LVL1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/PhysicWay/Physic_LVL1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/PhysicWay/Physic_LVL2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/PhysicWay/Physic_LVL2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/Archer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/Archer/ArcherFire_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/Archer/ArcherFire_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/Archer/ArcherPh_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/Archer/ArcherPh_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/Archer/ArcherPh_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/Archer/ArcherPh_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/Archer/BaseTower_LVL_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/Archer/BaseTower_LVL_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/Mage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/Mage/MageTower_LVL_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/Mage/MageTower_LVL_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TowerBuyControl.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TowerBuyControl.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuyUpgrade.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BuyUpgrade.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BigKnight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BigKnight.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Druid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Druid.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Knight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Knight.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Witch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Witch.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Arrow_LVL1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Arrow_LVL1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BuildSite.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BuildSite.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Arrow_LVL1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Arrow_LVL1.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Magic_LVL_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Magic_LVL_1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TowerBuyControl.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TowerBuyControl.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/Archer_Tower.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/Archer_Tower.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/Mage_Tower.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/Mage_Tower.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelDisplayController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelDisplayController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapLevel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/BaseTower_LVL_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/BaseTower_LVL_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/MageTower_LVL_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/TurretProperties/MageTower_LVL_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tower.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Utility/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/HUD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Utility/PlayerCamp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/PlayerCamp.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuildSite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuildSite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyWavesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyWavesManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TowerAsset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TowerAsset.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Upgrades.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Upgrades.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UpgradeShop.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UpgradeShop.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Upgrades.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Upgrades.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +95,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs" root0="FORCE_HIGHLIGHTING" />
@@ -196,6 +246,8 @@
       <workItem from="1649754903582" duration="1383000" />
       <workItem from="1649837861130" duration="599000" />
       <workItem from="1649926710339" duration="5804000" />
+      <workItem from="1649954166276" duration="4286000" />
+      <workItem from="1650202092028" duration="14272000" />
     </task>
     <servers />
   </component>
@@ -219,27 +271,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="708" y="341" key="#Notifications" timestamp="1649694006526">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="708" y="341" key="#Notifications/0.0.1920.1032@0.0.1920.1032" timestamp="1649694006526" />
-    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1649607022438">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1649607022438" />
-    <state x="670" y="194" key="RiderGenerateDialog" timestamp="1648293474980">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="670" y="194" key="RiderGenerateDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1648293474980" />
-    <state x="856" y="135" key="SettingsEditor" timestamp="1648296759568">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="856" y="135" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1648296759568" />
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1649692712641">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1649692712641" />
   </component>
 </project>

@@ -44,26 +44,17 @@ public class Tower : MonoBehaviour
                 m_Target = null;
             }
         }
-        /*
-        else
-        {
-            var enter = Physics2D.OverlapCircle(transform.position, m_Radius);
-            print($"{name} find target");
-            if (enter)
-            {
-                m_Target = enter.transform.root.GetComponent<Destructible>();
-            }
-        }
-        */
+        
     }
-    /*
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.cyan;
 
-        Gizmos.DrawWireSphere(transform.position, m_Radius);
+    public void Use(TowerAsset asset)
+    {
+        GetComponentInChildren<SpriteRenderer>().sprite = asset.TowerSprite;
+        SetTurret(asset.TurretProperties);
+        SetType(asset.Type);
+
+        GetComponentInChildren<BuildSite>().SetBuildableTowers(asset.UpgradeTo);
     }
-    */
     public void SetTurret(TurretProperties props)
     {
         foreach (var turret in m_Turrets)
@@ -76,22 +67,7 @@ public class Tower : MonoBehaviour
     {
         _type = type;
     }
-    /*
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (m_Target == null)
-        {
-            Enemy enemy = other.transform.root.GetComponent<Enemy>();
-            if (enemy != null)
-            {
-                if (enemy.Type == _type || _type == TargetLayer.Both)
-                {
-                    m_Target = enemy;
-                }
-            }
-        }
-    }
-    */
+    
     private void OnTriggerStay2D(Collider2D other)
     {
         if (m_Target == null)

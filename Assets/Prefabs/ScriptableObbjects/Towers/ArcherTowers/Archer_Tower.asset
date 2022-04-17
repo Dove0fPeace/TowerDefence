@@ -17,3 +17,6 @@ MonoBehaviour:
   GUISprite: {fileID: 21300000, guid: ef25b92a8e4b2644b8420de820e6c11f, type: 3}
   TowerSprite: {fileID: 21300000, guid: 0d1dc428e29b59d4da665429794be749, type: 3}
   TurretProperties: {fileID: 11400000, guid: 85ba5a5a68998e74a9105447a0e7cd57, type: 2}
+  UpgradeTo:
+  - {fileID: 11400000, guid: 98017f569d1f6c446b09f48c81c06b69, type: 2}
+  - {fileID: 11400000, guid: 98bd511772a05de4a9e855cd39a79faf, type: 2}

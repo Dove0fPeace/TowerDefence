@@ -197,7 +197,7 @@ MonoBehaviour:
   m_PlayerShipPrefab: {fileID: 0}
   m_ExplosionPrefab: {fileID: 0}
   m_Racing: 0
-  m_Gold: 100
-  m_TowerPrefab: {fileID: 720622318124658173, guid: 882920ec4a0510a4197637be90023517, type: 3}
+  m_Gold: 500
+  m_TowerPrefab: {fileID: 720622318124658172, guid: 882920ec4a0510a4197637be90023517, type: 3}
   m_HealthUpgrade: {fileID: 11400000, guid: 992b24e0ec2dc0e48aa73246545b9a7d, type: 2}
   m_GoldUpgrade: {fileID: 11400000, guid: 754e5ea5c79e02b479909745c5533082, type: 2}

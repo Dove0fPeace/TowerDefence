@@ -34,7 +34,7 @@ public class TD_Player : Player
 
     public int CurrentGold => m_Gold;
 
-    [SerializeField] private Tower m_TowerPrefab;
+    [SerializeField] private GameObject m_TowerPrefab;
 
     [Space(2)] 
     [SerializeField] private UpgradeAsset m_HealthUpgrade;
@@ -63,9 +63,7 @@ public class TD_Player : Player
     {
         ChangeGold(-towerAsset.GoldCost);
         var tower = Instantiate(m_TowerPrefab, buildSite.position, Quaternion.identity);
-        tower.GetComponentInChildren<SpriteRenderer>().sprite = towerAsset.TowerSprite;
-        tower.SetTurret(towerAsset.TurretProperties);
-        tower.SetType(towerAsset.Type);
+        tower.GetComponent<Tower>().Use(towerAsset);
         Destroy(buildSite.gameObject);
     }
 

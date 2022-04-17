@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -6,9 +7,13 @@ using UnityEngine.UI;
 public partial class TowerBuyControl : MonoBehaviour
 {
     [SerializeField] private TowerAsset m_TowerAsset;
+
+    public void SetTowerAsset(TowerAsset asset)
+    { m_TowerAsset = asset;}
     [SerializeField] private TMP_Text m_CostText;
     [SerializeField] private Button m_Button;
     [SerializeField] private Transform m_BuildSite;
+    
     public void SetBuildSite (Transform value)
     {
          m_BuildSite = value;
