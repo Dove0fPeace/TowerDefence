@@ -34,6 +34,9 @@ public class TD_Player : Player
 
     public int CurrentGold => m_Gold;
 
+    [SerializeField] private int m_Mana;
+    public int Mana => m_Mana;
+
     [SerializeField] private GameObject m_TowerPrefab;
 
     [Space(2)] 
