@@ -20,16 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186cce6c-f2c7-46df-9d34-12b04af63ec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/ClickProtection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ClickProtection.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Abilities.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Abilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Ramka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Ramka.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/FireAbilityUpgrade.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/FireAbilityUpgrade.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/TimeAbilityUpgrade.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/TimeAbilityUpgrade.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ClickProtection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ClickProtection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ManaView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ManaView.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Abilities.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Abilities.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Utility/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/HUD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickProtection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClickProtection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BigKnight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BigKnight.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelMap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelMap.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BuyControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abilities.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
@@ -134,7 +141,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Build\TowerDefence.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -194,6 +201,8 @@
       <workItem from="1649954166276" duration="4286000" />
       <workItem from="1650202092028" duration="14272000" />
       <workItem from="1650264485534" duration="5000000" />
+      <workItem from="1650370193008" duration="8242000" />
+      <workItem from="1650446130243" duration="2048000" />
     </task>
     <servers />
   </component>

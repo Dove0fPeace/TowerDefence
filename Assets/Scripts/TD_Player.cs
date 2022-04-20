@@ -11,6 +11,7 @@ public class TD_Player : Player
     }
 
     private static event Action<int> OnGoldUpdate;
+    
 
     public static void GoldUpdateSubscribe(Action<int> act)
     {
@@ -21,6 +22,19 @@ public class TD_Player : Player
     public static void GOldUpdate_Unsubscribe(Action<int> act)
     {
         OnGoldUpdate -= act;
+    }
+    
+    private static event Action<int> OnManaUpdate;
+    
+    public static void ManaUpdateSubscribe(Action<int> act)
+    {
+        OnManaUpdate += act;
+        act(Instance.Mana);
+    }
+    
+    public static void ManaUpdateUnSubscribe(Action<int> act)
+    {
+        OnManaUpdate -= act;
     }
     public static event Action<int> OnLifeUpdate;
     public static void HealthUpdateSubscribe(Action<int> act)
@@ -36,6 +50,7 @@ public class TD_Player : Player
 
     [SerializeField] private int m_Mana;
     public int Mana => m_Mana;
+    public int MaxMana { get; private set; }
 
     [SerializeField] private GameObject m_TowerPrefab;
 
@@ -48,6 +63,7 @@ public class TD_Player : Player
     {
         base.Awake();
         ConfirmUpgrades();
+        MaxMana = m_Mana;
     }
 
     public void ChangeGold(int gold)
@@ -60,6 +76,12 @@ public class TD_Player : Player
     {
         TakeDamage(change);
         OnLifeUpdate(NumLives);
+    }
+
+    public void ChangeMana(int mana)
+    {
+        m_Mana -= mana;
+        OnManaUpdate(Mana);
     }
 
     public void TryBuild(TowerAsset towerAsset, Transform buildSite)

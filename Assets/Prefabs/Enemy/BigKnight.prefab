@@ -75,7 +75,7 @@ MonoBehaviour:
   m_ScoreValue: 0
   m_PredictionMultiply: 0.5
   m_Indestructible: 0
-  m_HitPoints: 8
+  m_HitPoints: 10
   m_EventOnDeath:
     m_PersistentCalls:
       m_Calls:
