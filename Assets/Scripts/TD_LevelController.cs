@@ -11,7 +11,7 @@ public class TD_LevelController : LevelController
         base.Start();
         TD_Player.Instance.OnPlayerDead += () =>
         {
-            StopLevelActivity();
+            LevelActivityChanger.Instance.ChangeLevelActivity(false);
             ResultPanelController.Instance.ShowResults(null,false);
         };
 
@@ -19,7 +19,7 @@ public class TD_LevelController : LevelController
         
         EventLevelCompleted.AddListener(() =>
         {
-            StopLevelActivity();
+            LevelActivityChanger.Instance.ChangeLevelActivity(false);
             if (m_ReferenceTime <= Time.time)
             {
                 LevelScore -= 1;
@@ -34,22 +34,5 @@ public class TD_LevelController : LevelController
         }
 
         TD_Player.OnLifeUpdate += LifeScoreChange;
-    }
-
-    private void StopLevelActivity()
-    {
-        void DisableAll<T>() where T : MonoBehaviour
-        {
-            foreach (var obj in FindObjectsOfType<T>())
-            {
-                obj.enabled = false;
-            }
-        }
-        
-        DisableAll<EntitySpawner>();
-        DisableAll<Tower>();
-        DisableAll<TD_PatrolController>();
-        DisableAll<Projectile>();
-        DisableAll<NextWaveGUI>();
     }
 }

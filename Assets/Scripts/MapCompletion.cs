@@ -49,10 +49,13 @@ public class MapCompletion : SingletonBase<MapCompletion>
 
     private void UpdateTotalScore()
     {
+        var score = 0;
         foreach (var episodeScore in completionData)
         {
-            m_TotalScore += episodeScore.Score;
+            score += episodeScore.Score;
         }
+
+        m_TotalScore = score;
     }
     public int GetEpisodeScore(Episode episode)
     {

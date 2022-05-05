@@ -20,24 +20,158 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="186cce6c-f2c7-46df-9d34-12b04af63ec8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Ramka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Ramka.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/FireAbilityUpgrade.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/FireAbilityUpgrade.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/TimeAbilityUpgrade.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Upgrades/TimeAbilityUpgrade.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ClickProtection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ClickProtection.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ManaView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ManaView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/CLoud_Menu.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/CLoud_Menu.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Cloud.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Cloud.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MainMenu.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MainMenu/Cloud (2).controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MainMenu/Cloud (2).controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MainMenu/Cloud (6).controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MainMenu/Cloud (6).controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MainMenu/Cloud.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MainMenu/Cloud.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MainMenu/Cloud2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/MainMenu/Cloud2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/GlpbalMap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/GlpbalMap/fa638276f2a076155371.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/GlpbalMap/fa638276f2a076155371.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/GlpbalMap/fa638276f2a0761553718d344f3fbdfe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/GlpbalMap/fa638276f2a0761553718d344f3fbdfe.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/GlpbalMap/fc99df0ea63ed8a6b2ed08e92e228c01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/GlpbalMap/fc99df0ea63ed8a6b2ed08e92e228c01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/GlpbalMap/карта без башни).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/GlpbalMap/карта без башни).jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/Cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/Cloud.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/Tower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/Tower.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/Witch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/Witch.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/главная (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/главная (2).jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/главная.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/StartMenu/главная.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tower/fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tower/fire.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tower/shield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tower/shield.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tower/stone1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tower/stone1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BackgroundAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BackgroundAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/Abilities.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/Abilities.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/AllWavesDeadCondition.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/AllWavesDeadCondition.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/BackgroundSound.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/BackgroundSound.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/Escape.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/Escape.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/Mana.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/Mana.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/NextWave.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/NextWave.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/FinalScreen.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/FinalScreen.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonSceneLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonSceneLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Cloud_StartMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Cloud_StartMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EscapeMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EscapeMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelActivityChanger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelActivityChanger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelBGM.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LevelBGM.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuBGM.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuBGM.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sound.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sound.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SoundHook.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SoundHook.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SoundPlayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SoundPlayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UpgradesMenuOpener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UpgradesMenuOpener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Arrow.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Arrow/Arrow.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Arrow/Arrow.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Arrow/Arrow1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Arrow/Arrow1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Arrow/Arrow2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Arrow/Arrow2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Arrow/Arrow3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Arrow/Arrow3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Enemies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Enemies/EnemyDying.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Enemies/EnemyDying.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Enemies/EnemyDying2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Enemies/EnemyDying2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Enemies/EnemyDying3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Enemies/EnemyDying3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Enemies/Runes.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Enemies/Runes.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Enemies/Runes2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Enemies/Runes2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/MageAttackExplosion1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/MageAttackExplosion1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/MageAttackExplosion1.wav.reapeaks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/MageAttackExplosion1.wav.reapeaks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/MageAttackExplosion2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/MageAttackExplosion2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/MageAttackExplosion2.wav.reapeaks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/MageAttackExplosion2.wav.reapeaks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/MageAttackExplosion3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/MageAttackExplosion3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/MageAttackExplosion3.wav.reapeaks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/MageAttackExplosion3.wav.reapeaks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/Trap.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/Trap.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/Trap.wav.reapeaks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/MagicianTower/Trap.wav.reapeaks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Mysterious-intro-music.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Mysterious-intro-music.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sounds.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Sounds.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TowerDefence/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ClickProtection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ClickProtection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BranchLevel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BranchLevel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BigKnight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BigKnight.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Druid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Druid.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Knight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Knight.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Witch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/Witch.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Archer/ArrrowFire_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Archer/ArrrowFire_1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Episodes/Level_03_Episode.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Episodes/Level_03_Episode.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/Archer_Tower.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/Archer_Tower.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/FireWay/FireTower_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/FireWay/FireTower_1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/PhysicWay/Physic_LVL1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/PhysicWay/Physic_LVL1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/PhysicWay/Physic_LVL2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ScriptableObbjects/Towers/ArcherTowers/PhysicWay/Physic_LVL2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Upgrade.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Upgrade.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Utility/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/HUD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Utility/PlayerCamp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Utility/PlayerCamp.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelMap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelMap.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abilities.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_02.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_02.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_03.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_03.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AllWavesDead_LevelCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AllWavesDead_LevelCondition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyWavesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyWavesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelDisplayController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelDisplayController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MapCompletion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NextWaveGUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NextWaveGUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_LevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TD_PatrolController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UpgradeShop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UpgradeShop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Upgrades.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Upgrades.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_Imported/ResultPanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/_Imported/ResultPanelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +192,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TowerBuyControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BuildSite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpgradeAsset.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NullBuildSite.cs" root0="FORCE_HIGHLIGHTING" />
@@ -203,6 +338,11 @@
       <workItem from="1650264485534" duration="5000000" />
       <workItem from="1650370193008" duration="8242000" />
       <workItem from="1650446130243" duration="2048000" />
+      <workItem from="1650607986137" duration="6533000" />
+      <workItem from="1650872029385" duration="5522000" />
+      <workItem from="1650973431059" duration="12018000" />
+      <workItem from="1651038234642" duration="4171000" />
+      <workItem from="1651155457152" duration="3999000" />
     </task>
     <servers />
   </component>

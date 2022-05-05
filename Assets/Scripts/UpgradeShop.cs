@@ -20,13 +20,11 @@ public class UpgradeShop : MonoBehaviour
             slot.transform.Find(nameof(Button)).GetComponent<Button>().onClick.AddListener(UpdateMoney);
         }
         UpdateMoney();
-        print("UpdateMoney");
     }
 
     public void UpdateMoney()
     {
         m_Money = MapCompletion.Instance.TotalScore;
-        print(m_Money);
         if (cheat)
             m_Money += CheatedMoney;
         m_Money -= Upgrades.GetTotalCost();

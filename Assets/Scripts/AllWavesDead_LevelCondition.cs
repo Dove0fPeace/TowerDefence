@@ -10,10 +10,9 @@ public class AllWavesDead_LevelCondition : MonoBehaviour, ILevelCondition
 
     private void Start()
     {
-        FindObjectOfType<EnemyWavesManager>().OnAllWavesDead += () =>
+        EnemyWavesManager.OnAllWavesDead += () =>
         {
             isCompleted = true;
-            print(isCompleted);
         };
     }
 

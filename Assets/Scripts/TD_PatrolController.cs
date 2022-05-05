@@ -33,7 +33,6 @@ public class TD_PatrolController : Destructible
     private void Awake()
     {
         _basicSpeed = m_Speed;
-        print($"Set basic speed {name}");
     }
 
     private void FixedUpdate()

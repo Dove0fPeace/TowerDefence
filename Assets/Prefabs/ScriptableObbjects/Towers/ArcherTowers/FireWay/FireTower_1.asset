@@ -15,6 +15,6 @@ MonoBehaviour:
   Type: 2
   GoldCost: 15
   GUISprite: {fileID: 21300000, guid: 58a778926bb980f49808c486608b2b93, type: 3}
-  TowerSprite: {fileID: 21300000, guid: 0d1dc428e29b59d4da665429794be749, type: 3}
+  TowerSprite: {fileID: 21300000, guid: fd492a75d749b574cb54014747aeb630, type: 3}
   TurretProperties: {fileID: 11400000, guid: 756d095eda5ea4740b3b3c7bf0d4d6ef, type: 2}
   UpgradeTo: []

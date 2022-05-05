@@ -35,11 +35,15 @@ namespace _Imported
 
         public TargetLayer Layer;
 
+        [SerializeField] private Sound m_ShotSound = Sound.Arrow;
+        [SerializeField] private Sound m_HitSound = Sound.ArrowHit;
+
 
         protected float m_Timer;
 
         private void Start()
         {
+            m_ShotSound.Play();
             var upgradeLevel = Upgrades.GetUpgradeLevel(m_ProjectileUpgrade);
             
             speedBonus = ((float)upgradeLevel * 10) / 100;
@@ -85,16 +89,10 @@ namespace _Imported
             if (collision.transform.root.GetComponent<Enemy>().Type == Layer || Layer == TargetLayer.Both)
             {
                 TD_PatrolController dest = collision.transform.root.GetComponent<TD_PatrolController>();
-                print(dest.name);
                 if (dest != null)
                 {
+                    m_HitSound.Play();
                     dest.ApplyDamage(m_Damage, IsPlayerProjectile, m_DamageType);
-                    /*
-                    if (IsPlayerProjectile && dest.TeamID != Destructible.TeamIDNeutral)
-                    {
-                        Player.Instance.AddScore(dest.ScoreValue);
-                    }
-                    */
                 }
                 OnProjectileLifeEnd();
             }

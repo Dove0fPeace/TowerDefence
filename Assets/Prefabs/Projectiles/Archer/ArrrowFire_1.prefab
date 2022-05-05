@@ -71,14 +71,16 @@ MonoBehaviour:
   m_Nickname: 
   m_Velocity: 6
   m_Lifetime: 5
-  m_Damage: 8
+  m_Damage: 5
   m_ImpactEffectPrefab: {fileID: 0}
   m_ProjectileUpgrade: {fileID: 11400000, guid: fcb9495b993238849985119284802a9a, type: 2}
-  m_DamageType: 0
+  m_DamageType: 1
   m_DamageBonus: 1
   IsPlayerProjectile: 0
   Static: 0
   Layer: 1
+  m_ShotSound: 0
+  m_HitSound: 1
 --- !u!1 &2543431707001435906
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,7 +203,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 19c698e749a02864d821a7616ed0f7de, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.21226418, b: 0.21226418, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

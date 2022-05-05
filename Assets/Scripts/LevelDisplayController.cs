@@ -21,7 +21,6 @@ public class LevelDisplayController : MonoBehaviour
         for (int i = drawLevel; i < m_MapLevels.Length; i++)
         {
             m_MapLevels[i].gameObject.SetActive(false);
-            print(m_MapLevels[i].name);
         }
 
         for (int i = 0; i < m_BranchLevels.Length; i++)

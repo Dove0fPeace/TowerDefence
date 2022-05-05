@@ -10,8 +10,9 @@ public class EnemyWavesManager : MonoBehaviour
     
     private int _activeEnemyCount = 0;
 
-    public event Action OnAllWavesDead;
-    public static event Action<Destructible> OnEnemySpawn; 
+    public static event Action OnAllWavesDead;
+    public static event Action OnCurrentWavesDead;
+    public static event Action<TD_PatrolController> OnEnemySpawn; 
 
     private void Start()
     {
@@ -22,7 +23,8 @@ public class EnemyWavesManager : MonoBehaviour
     {
         if (--_activeEnemyCount == 0)
         {
-           ForceNextWave();
+            OnCurrentWavesDead?.Invoke();
+            ForceNextWave();
         }
         
     }
@@ -56,9 +58,8 @@ public class EnemyWavesManager : MonoBehaviour
             TD_Player.Instance.ChangeGold((int) m_CurrentWave.GetRemainingTime());
             SpawnEnemies();
         }
-        else
+        else if(_activeEnemyCount == 0)
         {
-            print("All wawes dead");
             OnAllWavesDead?.Invoke();
         }
     }
